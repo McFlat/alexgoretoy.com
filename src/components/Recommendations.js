@@ -11,7 +11,8 @@ const settings = {
   swipeToSlide: true
 };
 
-import Jesal from "../assets/documents/CalistoLabs_Letter_Of_Recommendation.pdf"
+import Jesal from "../assets/documents/CalistoLabs_Letter_Of_Recommendation.pdf";
+import Theresa from "../assets/documents/CalistoLabs_Letter_Of_Recommendation.pdf";
 
 const Testimonials = () => (
   <section id="recommendations">
@@ -27,8 +28,7 @@ const Testimonials = () => (
                   <p>
                     Alex also has good problem solving skills, he was always able to offer new ideas to get things done in a more efficient manner. He had an excellent rapport with his co-workers, managers and clients. He would be an asset to any employer and I recommend him for any endeavor he chooses to pursue.
                   </p>
-                  <cite>Jesal Gadhia - Calisto Labs, LLC</cite>
-                  <a href={Jesal}>Letter of recommendation</a>
+                  <cite>Jesal Gadhia - Calisto Labs, LLC <a href={Jesal}>Letter of recommendation</a></cite>
                 </blockquote>
               </li>
               <li>
@@ -36,7 +36,7 @@ const Testimonials = () => (
                   <p>
                     Alex's extensive experience with various technologies proved to be very helpful in our environment. Although our shop is primarily an older version of Node.JS Express with MongoDB, we have several platforms that need to be supported simultaneously requiring both noSQL and relational database skills (MS SQL and AS400), knowledge of short-hand version of Javascript called CoffeeScript, as well as knowledge of AngularJS with ES6. Alex demonstrated incredible adaptability and a "can-do" attitude, no matter what the mix of technology for any given assignment. His wealth of experience with other scripting languages such as PHP, Python, and various popular frameworks allowed him to be extremely knowledgeable and flexible when it came to tackling assignments.
                   </p>
-                  <cite>Theresa Temple - MC Management, Inc.</cite>
+                  <cite>Theresa Temple - MC Management, Inc. <a href={Theresa}>Letter of recommendation</a></cite>
                 </blockquote>
               </li>
               <li>
