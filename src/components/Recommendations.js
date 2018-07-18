@@ -13,6 +13,7 @@ const settings = {
 
 import Jesal from "../assets/documents/CalistoLabs_Letter_Of_Recommendation.pdf";
 import Theresa from "../assets/documents/CalistoLabs_Letter_Of_Recommendation.pdf";
+import Sean from "../assets/documents/CalistoLabs_Letter_Of_Recommendation.pdf";
 
 const Testimonials = () => (
   <section id="recommendations">
@@ -44,7 +45,7 @@ const Testimonials = () => (
                   <p>
                     Alex is a highly knowledgeable and creative systems and application engineer. His passion for applying leading edge technology to solve business problems is demonstrated in his ability to design and build flexible, forward looking applications which respond not only to the immediate project specifications but also position the application/framework for future use cases best in class design patterns and upcoming technology trends.
                   </p>
-                  <cite>Sean Hennessy - Stratus Technology Services, LLC</cite>
+                  <cite>Sean Hennessy - Stratus Technology Services, LLC <a href={Sean}>Letter of recommendation</a></cite>
                 </blockquote>
               </li>
             </Slider>
