@@ -1,5 +1,12 @@
 import React from "react";
 
+import { FaCloudDownload } from "react-icons/lib/fa";
+
+import SantaClaraCigars from "../assets/images/portfolio/SantaClaraCigars.png";
+import FOX from "../assets/images/portfolio/FOX.png";
+import CSNAPS from "../assets/images/portfolio/CSNAPS.AppliedMerchant.png";
+import POCBuilder from "../assets/images/portfolio/Cisco-POCBuilder-Dashboard.png";
+
 const Work = () => (
   <section id="experience">
     <div className="row experience">
@@ -18,7 +25,9 @@ const Work = () => (
               <span>&bull;</span>
               <em className="date">Apr. 2017 - Mar. 2018</em>
             </p>
-
+            
+            <img src={SantaClaraCigars} />
+              
             <p>
               ●   Work on a distributed team as a remote developer on BackEnd Team, fixing existing functionality written in coffeescript connecting to AS400, MS SQL and MongoDB
               ●   Refactored Coldfusion scripts and fixed bugs in legacy code
@@ -53,6 +62,8 @@ const Work = () => (
               <em className="date">Dec. 2016 - Mar. 2017</em>
             </p>
 
+            <img src={FOX} />
+
             <p>
               ●      Work on a distributed team as remote developer on the API Team, building apps with JavaScript/ES6
               ●      NPM/Node.js, ElasticSearch, ElasticMQ, Redis, Mongo, React/Redux, Docker, Nginx, AWS/S3, Postman, Jet, Mocha; MEAN Stack
@@ -75,6 +86,7 @@ const Work = () => (
               <em className="date">May 2016 - Current</em>
             </p>
 
+            <img src={CSNAPS} />
             <p>
               ●      Created local development environment with vagrant in a private github repo
               ●      Communicated with team using JIRA, phone, skype and email.
@@ -104,6 +116,8 @@ const Work = () => (
               <em className="date">Nov. 2015 - Apr. 2016</em>
             </p>
 
+            <img src={POCBuilder} />
+
             <p>
               ●   Build an app for Cisco Systems, Inc with Tornado and jQuery, NPM/Node.js, Bower
               ●   Created a dynamic page generator command-line tool
@@ -120,6 +134,17 @@ const Work = () => (
           </div>
         </div>
 
+        <div className="row item">
+          <div className="twelve columns">
+            <div className="download">
+              <p>
+                <a href="/Alex-Goretoy-Resume.docx" className="button">
+                  <FaCloudDownload /> Download Resume
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>

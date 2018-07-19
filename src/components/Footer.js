@@ -8,7 +8,7 @@ const Footer = () => (
       <div className="twelve columns">
         <SocialLinks />
 
-        &copy; Copyright {new Date().getFullYear()} Alex Goretoy
+        &copy; Copyright {new Date().getFullYear()} Alex Goretoy All rights reserved.
       </div>
 
       <div id="go-top">

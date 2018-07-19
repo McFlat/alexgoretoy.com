@@ -2,6 +2,7 @@ import React from "react";
 import { FaPlus, FaTag } from "react-icons/lib/fa";
 
 import ABTranslator from "../assets/images/portfolio/AB-Translator.png";
+import App4 from "../assets/images/portfolio/AppliedMerchant-HostGator.png";
 import BarnIO from "../assets/images/portfolio/Barn.IO.png";
 import BoostMood from "../assets/images/portfolio/BoostMood.png";
 import Causecast from "../assets/images/portfolio/Causecast.png";
@@ -11,13 +12,14 @@ import DeveloperAccess from "../assets/images/portfolio/Developer_Access-screens
 import CDMRewards from "../assets/images/portfolio/cdm-rewards.jpg";
 import EasyTurf from "../assets/images/portfolio/easyturf.png";
 import FasterNotes from "../assets/images/portfolio/fasternotes.jpg";
+import FOX from "../assets/images/portfolio/fox-dcg.png";
 import FMM from "../assets/images/portfolio/fmm-after.jpg";
 import HotPersonals from "../assets/images/portfolio/hotpersonals.ws.jpg";
 import Jellpy from "../assets/images/portfolio/jellpy-screenshot.png";
 import Llama from "../assets/images/portfolio/llama.com.png";
 import MindsAndMachines from "../assets/images/portfolio/mindsandmachines.png";
 import OriginalGlo from "../assets/images/portfolio/originalglo.com.png";
-import POCBuilder from "../assets/images/portfolio/poc_scr1.png";
+import POCBuilder from "../assets/images/portfolio/Cisco-POCBuilder-Dashboard.png";
 import ConfigParser from "../assets/images/portfolio/pyGTK-configparser-screenshot.jpg";
 import Quizzes from "../assets/images/portfolio/quizzes-matching.jpg";
 import RDNSpy from "../assets/images/portfolio/rdns-scraper_640.jpg";
@@ -72,6 +74,40 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
+              <a href="http://fox.com" title="FOX Broadcasting">
+                <img alt="" src={FOX} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>FOX.com</h5>
+                    <p>React.js, Full-Stack Web Development, Engineering Solutions</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
+              <a href="http://app4.appliedmerchant.com" title="AppliedMerchant.com HostGator">
+                <img alt="" src={App4} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>AppliedMerchant.com</h5>
+                    <p>Django, Full-Stack Web Development, Engineering Solutions</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
               <a href="#" title="Cisco POCBuilder">
                 <img alt="" src={POCBuilder} />
                 <div className="overlay">
@@ -89,29 +125,12 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="#" title="AB Translator">
-                <img alt="" src={ABTranslator} />
+              <a href="https://www.fasternotes.com/" title="FasterNotes">
+                <img alt="" src={FasterNotes} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>AB Translator</h5>
-                    <p>jQuery, Bootstrap</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item animated pulse">
-            <div className="item-wrap">
-              <a href="#" title="Barn.IO">
-                <img alt="" src={BarnIO} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Barn.IO</h5>
-                    <p>jQuery, Bootstrap, CakePHP, AWS API</p>
+                    <h5>FasterNotes</h5>
+                    <p>WordPress, PHP, HTML5, CSS3/SASS</p>
                   </div>
                 </div>
                 <div className="link-icon">
@@ -157,233 +176,12 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="http://www.centralmotorauto.com" title="Central Motor Auto">
-                <img alt="" src={CentralMotorAuto} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>CentralMotorAuto.com</h5>
-                    <p>jQuery, HTML, CSS, CodeIgniter</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item animated pulse">
-            <div className="item-wrap">
-              <a href="https://launchpad.net/~a1g/+archive/ubuntu/courtesyflush" title="CourtesyFlush">
-                <img alt="" src={Courtesyflush} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>CourtesyFlush</h5>
-                    <p>Python2, GTK</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item animated pulse">
-            <div className="item-wrap">
-              <a href="https://github.com/FlatEarthTruther/developer_access" title="Developer Access">
-                <img alt="" src={DeveloperAccess} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Developer Access</h5>
-                    <p>PHP5, HTML</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item animated pulse">
-            <div className="item-wrap">
-              <a href="https://www.easyturf.com/" title="EasyTurf">
-                <img alt="" src={EasyTurf} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>EasyTurf.com</h5>
-                    <p>PHP, HTML5, jQuery</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item animated pulse">
-            <div className="item-wrap">
-              <a href="https://www.fasternotes.com/" title="FasterNotes">
-                <img alt="" src={FasterNotes} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>FasterNotes</h5>
-                    <p>WordPress, PHP, HTML5, CSS3/SASS</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item animated pulse">
-            <div className="item-wrap">
-              <a href="#" title="">
-                <img alt="" src={FMM} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>FMM</h5>
-                    <p>PHP5, HTML4, CSS2, XCart</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item animated pulse">
-            <div className="item-wrap">
-              <a href="#" title="">
-                <img alt="" src={HotPersonals} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>HotPersonals.WS</h5>
-                    <p>HTML, CSS, MooTools, CodeIgniter</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item animated pulse">
-            <div className="item-wrap">
-              <a href="#" title="">
-                <img alt="" src={Jellpy} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>JellPy</h5>
-                    <p>Python2, pyGTK</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item animated pulse">
-            <div className="item-wrap">
-              <a href="http://www.llama.com" title="">
-                <img alt="" src={Llama} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Llama.com</h5>
-                    <p>BootStrap, CakePHP, Full-Stack Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item animated pulse">
-            <div className="item-wrap">
-              <a href="#modal-08" title="">
-                <img alt="https://mmx.co" src={MindsAndMachines} />
+              <a href="https://mmx.co" title="">
+                <img alt="" src={MindsAndMachines} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>MindsAndMachines.com</h5>
                     <p>BootStrap, jQuery, PHP, Symfony, Full-Stack Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item animated pulse">
-            <div className="item-wrap">
-              <a href="https://github.com/FlatEarthTruther/pygtk-configparser" title="PyGTK ConfigParser">
-                <img alt="" src={ConfigParser} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>PyGTK ConfigParser</h5>
-                    <p>Python2, pyGTK</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item animated pulse">
-            <div className="item-wrap">
-              <a href="#" title="Quizzes Interface">
-                <img alt="" src={Quizzes} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Quizzes Interface</h5>
-                    <p>Bring wireframes to life with jQuery</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item animated pulse">
-            <div className="item-wrap">
-              <a href="https://github.com/FlatEarthTruther/rdns.py" title="Reverse DNS Console client">
-                <img alt="" src={RDNSpy} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>RDNS.py</h5>
-                    <p>Python2</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item animated pulse">
-            <div className="item-wrap">
-              <a href="https://github.com/FlatEarthTruther/pygtk-csvfieldsdata" title="PyGTK CSV Fields Data">
-                <img alt="" src={CSVFieldData} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>CSVFieldData</h5>
-                    <p>Python2, pyGTK</p>
                   </div>
                 </div>
                 <div className="link-icon">
@@ -429,12 +227,252 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
+              <a href="#" title="Barn.IO">
+                <img alt="" src={BarnIO} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>Barn.IO</h5>
+                    <p>jQuery, Bootstrap, CakePHP, AWS API</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
+              <a href="http://www.llama.com" title="">
+                <img alt="" src={Llama} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>Llama.com</h5>
+                    <p>BootStrap, CakePHP, Full-Stack Web Development</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
+              <a href="#" title="AB Translator">
+                <img alt="" src={ABTranslator} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>AB Translator</h5>
+                    <p>jQuery, Bootstrap</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
+              <a href="https://www.easyturf.com/" title="EasyTurf">
+                <img alt="" src={EasyTurf} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>EasyTurf.com</h5>
+                    <p>PHP, HTML5, jQuery</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
+              <a href="#" title="Quizzes Interface">
+                <img alt="" src={Quizzes} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>Quizzes Interface</h5>
+                    <p>Bring wireframes to life with jQuery</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
               <a href="#" title="">
                 <img alt="" src={VlifeTech} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>vLifeTech</h5>
                     <p>CakePHP, jQuery, Full-Stack Web Development</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
+              <a href="https://github.com/FlatEarthTruther/rdns.py" title="Reverse DNS Console client">
+                <img alt="" src={RDNSpy} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>RDNS.py</h5>
+                    <p>Python2</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
+              <a href="https://github.com/FlatEarthTruther/pygtk-csvfieldsdata" title="PyGTK CSV Fields Data">
+                <img alt="" src={CSVFieldData} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>CSVFieldData</h5>
+                    <p>Python2, pyGTK</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+          
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
+              <a href="https://github.com/FlatEarthTruther/pygtk-configparser" title="PyGTK ConfigParser">
+                <img alt="" src={ConfigParser} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>PyGTK ConfigParser</h5>
+                    <p>Python2, pyGTK</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
+              <a href="https://launchpad.net/~a1g/+archive/ubuntu/courtesyflush" title="CourtesyFlush">
+                <img alt="" src={Courtesyflush} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>CourtesyFlush</h5>
+                    <p>Python2, GTK</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
+              <a href="https://github.com/FlatEarthTruther/developer_access" title="Developer Access">
+                <img alt="" src={DeveloperAccess} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>Developer Access</h5>
+                    <p>PHP5, HTML</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
+              <a href="#" title="">
+                <img alt="" src={Jellpy} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>JellPy</h5>
+                    <p>Python2, pyGTK</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
+              <a href="#" title="">
+                <img alt="" src={FMM} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>FMM</h5>
+                    <p>PHP5, HTML4, CSS2, XCart</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
+              <a href="#" title="">
+                <img alt="" src={HotPersonals} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>HotPersonals.WS</h5>
+                    <p>HTML, CSS, MooTools, CodeIgniter</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
+              <a href="http://www.centralmotorauto.com" title="Central Motor Auto">
+                <img alt="" src={CentralMotorAuto} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>CentralMotorAuto.com</h5>
+                    <p>jQuery, HTML, CSS, CodeIgniter</p>
                   </div>
                 </div>
                 <div className="link-icon">

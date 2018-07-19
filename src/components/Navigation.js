@@ -35,6 +35,11 @@ const Navigation = () => (
         </a>
       </li>
       <li>
+        <a className="smoothscroll" href="#code">
+          Code Samples
+        </a>
+      </li>
+      <li>
         <a className="smoothscroll" href="#recommendations">
           Recommendations
         </a>

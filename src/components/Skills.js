@@ -101,6 +101,10 @@ const Skills = () => (
               <em>Terraform</em>
             </li>
             <li>
+              <span className="bar-expand nginx" />
+              <em>NGINX</em>
+            </li>
+            <li>
               <span className="bar-expand sql" />
               <em>SQL</em>
             </li>
@@ -127,6 +131,10 @@ const Skills = () => (
             <li>
               <span className="bar-expand rabbitmq" />
               <em>RabbitMQ</em>
+            </li>
+            <li>
+              <span className="bar-expand celery" />
+              <em>Celery</em>
             </li>
             <li>
               <span className="bar-expand elasticsearch" />
@@ -211,6 +219,10 @@ const Skills = () => (
             <li>
               <span className="bar-expand uxui-design" />
               <em>UX/UI Design</em>
+            </li>
+            <li>
+              <span className="bar-expand plusmore" />
+              <em>Plus much more ...</em>
             </li>
           </ul>
 

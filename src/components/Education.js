@@ -1,5 +1,10 @@
 import React from "react";
 
+import {
+  FaArrowCircleLeft
+} from "react-icons/lib/fa";
+
+import PCIcert from "../assets/images/certifications/cybrary-payment-card-industry.png";
 import HTMLcert from "../assets/images/certifications/cert-1014-860659.jpg";
 import CSScert from "../assets/images/certifications/cert-1023-860659.jpg";
 import JScert from "../assets/images/certifications/cert-1024-860659.jpg";
@@ -21,7 +26,26 @@ const Education = () => (
       <div className="nine columns main-col">
         <div className="row item">
           <div className="twelve columns">
-            <h3><a href="https://www.sololearn.com/Profile/860659">SoloLearn.com</a></h3>
+            <h3><a href="http://www.cybrary.it/members/gxela/">Cybrary.IT <FaArrowCircleLeft /></a></h3>
+            <p className="info">
+              Build your cyber security or IT career, for free.
+              <span>&bull;</span>
+              <em className="date">Jan. 2017</em>
+            </p>
+
+            <ol>
+              <li>Payment Card Industry Data Security Standard PCI/DSS</li>           
+            </ol>
+            <div className="row certifications">
+              <div className="three columns">
+                <img src={PCIcert} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row item">
+          <div className="twelve columns">
+            <h3><a href="https://www.sololearn.com/Profile/860659">SoloLearn.com <FaArrowCircleLeft /></a></h3>
             <p className="info">
               Learn to code for FREE!
               <span>&bull;</span>
@@ -71,7 +95,7 @@ const Education = () => (
         
         <div className="row item">
           <div className="twelve columns">
-            <h3><a href="https://aws.amazon.com/certification/certification-prep/">AWS Certified Solutions Architect</a></h3>
+            <h3><a href="https://aws.amazon.com/certification/certification-prep/">AWS Certified Solutions Architect <FaArrowCircleLeft /></a></h3>
             <p className="info">
               Self-prep for AWS Certified Solutions Architect - Associate Exam
               <span>&bull;</span>
@@ -90,7 +114,7 @@ const Education = () => (
         </div>
         <div className="row item">
           <div className="twelve columns">
-            <h3><a href="https://egghead.io/users/126924">EggHead.io</a></h3>
+            <h3><a href="https://egghead.io/users/126924">EggHead.io <FaArrowCircleLeft /></a></h3>
             <p className="info">
               Learn the best JavaScript tools and frameworks from industry pros.
               <span>&bull;</span>
@@ -108,7 +132,7 @@ const Education = () => (
         </div>
         <div className="row item">
           <div className="twelve columns">
-            <h3><a href="https://teamtreehouse.com/alexgoretoy">TeamTreeHouse.com</a></h3>
+            <h3><a href="https://teamtreehouse.com/alexgoretoy">TeamTreeHouse.com <FaArrowCircleLeft /></a></h3>
             <p className="info">
               Learn to code, gain a new skill, get a new job.
               <span>&bull;</span>
@@ -138,7 +162,7 @@ const Education = () => (
 
         <div className="row item">
           <div className="twelve columns">
-            <h3><a href="http://www.crisaga.org/closure.htm">Court Reporting Institute (CRI)</a></h3>
+            <h3><a href="http://www.crisaga.org/closure.htm">Court Reporting Institute (CRI) <FaArrowCircleLeft /></a></h3>
             <p className="info">
               Learn computer programming with Visual Studio .Net Framework 1.1
               <span>&bull;</span>

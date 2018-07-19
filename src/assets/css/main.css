@@ -840,11 +840,15 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background-color: #161415;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
+}
+
+.bg-1 {
+   background: url(../images/header-background.jpg) no-repeat top center;
 }
 
 /* vertically center banner section */
@@ -1040,28 +1044,29 @@ ul#nav li.current a {
   width: 120px;
   height: 120px;
   border-radius: 100%;
-  z-index: 9999;
+  /*z-index: 9999;*/
   margin: 3rem;
 }
 #about .contact-details {
   width: 41.66667%;
 }
-#about .download {
-  width: 58.33333%;
+#about .download, #experience .download {
+  width: 50%;
   padding-top: 6px;
 }
 #about .main-col {
   padding-right: 5%;
 }
-#about .download .button {
+#about .download .button, #experience .download .button {
   margin-top: 6px;
   background: #444;
+  color: #fff;
 }
-#about .download .button:hover {
+#about .download .button:hover, #experience .download .button:hover {
   background: #fff;
   color: #2b2b2b;
 }
-#about .download .button i {
+#about .download .button i, #experience .download .button i {
   margin-right: 15px;
   font-size: 20px;
 }
@@ -1101,7 +1106,7 @@ ul#nav li.current a {
 
 #resume .header-col {
   padding-top: 9px;
-  z-index: 9999;
+  /*z-index: 9999;*/
 }
 #resume .main-col {
   padding-right: 10%;
@@ -1277,6 +1282,11 @@ ul#nav li.current a {
   -moz-animation: photoshop 2s ease;
   -webkit-animation: photoshop 2s ease;
 }
+.nginx {
+  width: 100%;
+  -moz-animation: photoshop 2s ease;
+  -webkit-animation: photoshop 2s ease;
+}
 .sql {
   width: 100%;
   -moz-animation: photoshop 2s ease;
@@ -1308,6 +1318,11 @@ ul#nav li.current a {
   -webkit-animation: photoshop 2s ease;
 }
 .rabbitmq {
+  width: 100%;
+  -moz-animation: photoshop 2s ease;
+  -webkit-animation: photoshop 2s ease;
+}
+.celery {
   width: 100%;
   -moz-animation: photoshop 2s ease;
   -webkit-animation: photoshop 2s ease;
@@ -1413,6 +1428,11 @@ ul#nav li.current a {
   -webkit-animation: photoshop 2s ease;
 }
 .uxui-design {
+  width: 100%;
+  -moz-animation: photoshop 2s ease;
+  -webkit-animation: photoshop 2s ease;
+}
+.plusmore {
   width: 100%;
   -moz-animation: photoshop 2s ease;
   -webkit-animation: photoshop 2s ease;
@@ -1586,6 +1606,14 @@ ul#nav li.current a {
     width: 100%;
   }
 }
+@-moz-keyframes nginx {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
 @-moz-keyframes sql {
   0% {
     width: 0px;
@@ -1635,6 +1663,14 @@ ul#nav li.current a {
   }
 }
 @-moz-keyframes rabbitmq {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-moz-keyframes celery {
   0% {
     width: 0px;
   }
@@ -1810,7 +1846,14 @@ ul#nav li.current a {
     width: 100%;
   }
 }
-
+@-moz-keyframes plusmore {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
 
 @-webkit-keyframes photoshop {
   0% {
@@ -1980,6 +2023,14 @@ ul#nav li.current a {
     width: 100%;
   }
 }
+@-moz-keyframes nginx {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
 @-webkit-keyframes sql {
   0% {
     width: 0px;
@@ -2029,6 +2080,14 @@ ul#nav li.current a {
   }
 }
 @-webkit-keyframes rabbitmq {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-moz-keyframes celery {
   0% {
     width: 0px;
   }
@@ -2204,6 +2263,55 @@ ul#nav li.current a {
     width: 100%;
   }
 }
+@-moz-keyframes plusmore {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+#code {
+  background: #fff;
+  padding-top: 90px;
+  padding-bottom: 72px;
+  overflow: hidden;
+}
+
+#code a,
+#code a:visited {
+  color: #11abb0;
+}
+#code a:hover,
+#code a:focus {
+  color: #313131;
+}
+
+#code h1 {
+  font: 18px/24px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#code h1 span {
+  border-bottom: 3px solid #11abb0;
+  padding-bottom: 6px;
+}
+#code h3 {
+  font: 25px/30px "opensans-bold", sans-serif;
+}
+#code h4 {
+   font-family: 'Rubik Mono One', sans-serif;
+}
+
+#code .header-col {
+  padding-top: 9px;
+  /*z-index: 9999;*/
+}
+#code .main-col {
+  padding-right: 10%;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -3094,7 +3202,7 @@ footer .social li:first-child {
  /* About Section
  -------------------------------------------------------------------- */
  /*#about .profile-pic { display: none; }*/
- #about .download .button {
+ #about .download .button, #experience .download .button {
     width: 100%;
     text-align: center;
     padding: 15px 20px;
