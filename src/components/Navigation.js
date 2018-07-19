@@ -30,13 +30,13 @@ const Navigation = () => (
         </a>
       </li>
       <li>
-        <a className="smoothscroll" href="#portfolio">
-          Portfolio
+        <a className="smoothscroll" href="#code">
+          Code Samples
         </a>
       </li>
       <li>
-        <a className="smoothscroll" href="#code">
-          Code Samples
+        <a className="smoothscroll" href="#portfolio">
+          Portfolio
         </a>
       </li>
       <li>

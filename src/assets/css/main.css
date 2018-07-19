@@ -848,8 +848,18 @@ header {
 }
 
 .bg-1 {
-   background: url(../images/header-background.jpg) no-repeat top center;
+   background: url(../images/header-background-1.jpg) no-repeat top center;
 }
+.bg-2 {
+   background: url(../images/molly-martirez-787-unsplash.jpg) no-repeat top center;
+}
+.bg-3 {
+   background: url(../images/steven-kamenar-11107-unsplash.jpg) no-repeat top center;
+}
+.bg-4 {
+   background: url(../images/vladimir-kudinov-61641-unsplash.jpg) no-repeat top center;
+}
+
 
 /* vertically center banner section */
 header:before {
@@ -1078,7 +1088,7 @@ ul#nav li.current a {
 #resume {
   background: #fff;
   padding-top: 90px;
-  padding-bottom: 72px;
+/*  padding-bottom: 72px;*/
   overflow: hidden;
 }
 
@@ -1116,7 +1126,7 @@ ul#nav li.current a {
 .experience {
   margin-bottom: 48px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #e8e8e8;
+/*  border-bottom: 1px solid #e8e8e8;*/
 }
 #resume .info {
 
@@ -2274,7 +2284,7 @@ ul#nav li.current a {
 
 #code {
   background: #fff;
-  padding-top: 90px;
+  /*padding-top: 90px;*/
   padding-bottom: 72px;
   overflow: hidden;
 }

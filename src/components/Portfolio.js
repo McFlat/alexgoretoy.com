@@ -17,7 +17,7 @@ import FMM from "../assets/images/portfolio/fmm-after.jpg";
 import HotPersonals from "../assets/images/portfolio/hotpersonals.ws.jpg";
 import Jellpy from "../assets/images/portfolio/jellpy-screenshot.png";
 import Llama from "../assets/images/portfolio/llama.com.png";
-import MindsAndMachines from "../assets/images/portfolio/mindsandmachines.png";
+import MMX from "../assets/images/portfolio/mmx.png";
 import OriginalGlo from "../assets/images/portfolio/originalglo.com.png";
 import POCBuilder from "../assets/images/portfolio/Cisco-POCBuilder-Dashboard.png";
 import ConfigParser from "../assets/images/portfolio/pyGTK-configparser-screenshot.jpg";
@@ -27,6 +27,7 @@ import CSVFieldData from "../assets/images/portfolio/screenshot-pygtk-csvfieldsd
 import Sindulge from "../assets/images/portfolio/sindulge-harvest.png";
 import TimeTracker from "../assets/images/portfolio/TimeTracker.png";
 import VlifeTech from "../assets/images/portfolio/vlifetech.png";
+import VOC from "../assets/images/portfolio/VOC.png";
 
 const Portfolio = () => (
   <section id="portfolio">
@@ -176,12 +177,29 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="https://mmx.co" title="">
-                <img alt="" src={MindsAndMachines} />
+              <a href="http://mindsandmachines.com" title="">
+                <img alt="" src={MMX} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>MindsAndMachines.com</h5>
                     <p>BootStrap, jQuery, PHP, Symfony, Full-Stack Web Development</p>
+                  </div>
+                </div>
+                <div className="link-icon">
+                  <FaPlus />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item animated pulse">
+            <div className="item-wrap">
+              <a href="https://villageofchange.com/" title="Village of Change">
+                <img alt="" src={VOC} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>Village of Change - Crowdfunding for High School Seniors going to College</h5>
+                    <p>Laravel5, WordPress, Zurb Foundation, AWS, Vagrant</p>
                   </div>
                 </div>
                 <div className="link-icon">

@@ -45,6 +45,15 @@ export default () => (
 
 	      <div className="row item">
 	        <div className="twelve columns">
+	          <h3><a href="https://www.npmjs.org/~gxela">NPM Packages <FaArrowCircleLeft /></a></h3>
+	        	<p className="info">
+              My NODE Package Manager profile.
+            </p>
+	        </div>
+	      </div>
+
+	      <div className="row item">
+	        <div className="twelve columns">
 	          <h3><a href="http://angular-address-book.appspot.com/#/">Angular Address Book <FaArrowCircleLeft /></a></h3>
 	        	<p className="info">
               Demo Address Book app written with Angular running on Google Cloud.
