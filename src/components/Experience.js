@@ -27,6 +27,7 @@ const Work = () => (
             </p>
             
             <img src={SantaClaraCigars} />
+            <a href="http://cdm-docs-customer.s3-website-us-east-1.amazonaws.com/">CDM Rewards Documentation</a>
               
             <p>
               ●   Work on a distributed team as a remote developer on BackEnd Team, fixing existing functionality written in coffeescript connecting to AS400, MS SQL and MongoDB

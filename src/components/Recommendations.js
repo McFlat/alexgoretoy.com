@@ -29,7 +29,22 @@ const Testimonials = () => (
               <li>
                 <blockquote>
                   <p>
-                    Alex's extensive experience with various technologies proved to be very helpful in our environment. Although our shop is primarily an older version of Node.JS Express with MongoDB, we have several platforms that need to be supported simultaneously requiring both noSQL and relational database skills (MS SQL and AS400), knowledge of short-hand version of Javascript called CoffeeScript, as well as knowledge of AngularJS with ES6. Alex demonstrated incredible adaptability and a "can-do" attitude, no matter what the mix of technology for any given assignment. His wealth of experience with other scripting languages such as PHP, Python, and various popular frameworks allowed him to be extremely knowledgeable and flexible when it came to tackling assignments.
+                    I am writing to recommend Alex Goretoy. As a Web Technical Lead, I had the privilege of working with Alex for more
+than one year at MC Management, Inc. Serving in this capacity allowed me to work very closely with Alex, so I fully
+understand his capabilities.
+Alex's extensive experience with various technologies proved to be very helpful in our environment. Although our
+shop is primarily an older version of NodeJS Express with MongoDB, we have several platforms that need to be
+supported simultaneously requiring both noSQL and relational database skills (MS SQL and AS400), knowledge of
+short-hand version of Javascript called CoffeeScript, as well as knowledge of AngularJS with ES6. Alex
+demonstrated incredible adaptability and a "can-do" attitude, no matter what the mix of technology for any given
+assignment. His wealth of experience with other scripting languages such as PHP, Python, and various popular
+frameworks allowed him to be extremely knowledgeable and flexible when it came to tackling assignments.
+Alex also provided many helpful suggestions and solutions to the environment so that we could become more
+effective and efficient in our day-to-day DevOps tasks using Jenkins and AWS. He provided helpful testing
+approaches, tools, and suggestions on how we could do things better. He tackled critical and complex assignments
+involving Redis and SimpleCache with professionalism and much success.
+Overall, I would highly recommend Alex and believe he would be a great addition to any team. If you have any
+questions, please feel free to contact me at the number below.
                   </p>
                   <cite>Theresa Temple - MC Management, Inc. <a href={Theresa}>Letter of recommendation</a></cite>
                 </blockquote>
@@ -53,7 +68,17 @@ const Testimonials = () => (
               <li>
                 <blockquote>
                   <p>
-                    Alex also has good problem solving skills, he was always able to offer new ideas to get things done in a more efficient manner. He had an excellent rapport with his co-workers, managers and clients. He would be an asset to any employer and I recommend him for any endeavor he chooses to pursue.
+                    I would like to recommend Alex Goretoy as a candidate for a position with your
+organization. In his role as a PHP Developer, Alex provided consultation services for
+our company from 5/31/2012 - 7/20/2012.
+Alex did an excellent job in this position and was an asset to our organization during
+his tenure. He has excellent written and verbal communication skills, is extremely
+organized, can work independently, and is able to effectively multi-task to ensure that all
+tasks are completed in a timely manner.
+Alex also has good problem solving skills, he was always able to offer new ideas to get
+things done in a more efficient manner. He had an excellent rapport with his co-workers,
+managers and clients. He would be an asset to any employer and I recommend him for
+any endeavor he chooses to pursue.
                   </p>
                   <cite>Jesal Gadhia - Calisto Labs, LLC <a href={Jesal}>Letter of recommendation</a></cite>
                 </blockquote>
