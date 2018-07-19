@@ -43,6 +43,15 @@ export default () => (
 	        </div>
 	      </div>
 
+	      <div className="row item">
+	        <div className="twelve columns">
+	          <h3><a href="http://angular-address-book.appspot.com/#/">Angular Address Book <FaArrowCircleLeft /></a></h3>
+	        	<p className="info">
+              Demo Address Book app written with Angular running on Google Cloud.
+            </p>
+	        </div>
+	      </div>
+
         <div className="row item">
           <div className="twelve columns">
             <h3><a href="https://jsfiddle.net/9Lkaynz7">Gematria Calculator <FaArrowCircleLeft /></a></h3>
