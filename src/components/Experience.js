@@ -1,4 +1,5 @@
 import React from "react";
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 import { FaCloudDownload } from "react-icons/lib/fa";
 
@@ -27,7 +28,7 @@ const Work = () => (
             </p>
             
             <img src={SantaClaraCigars} />
-            <a href="http://cdm-docs-customer.s3-website-us-east-1.amazonaws.com/">CDM Rewards Documentation</a>
+            <OutboundLink href="http://cdm-docs-customer.s3-website-us-east-1.amazonaws.com/">CDM Rewards Program Documentation</OutboundLink>
               
             <p>
               ●   Work on a distributed team as a remote developer on BackEnd Team, fixing existing functionality written in coffeescript connecting to AS400, MS SQL and MongoDB
@@ -139,9 +140,9 @@ const Work = () => (
           <div className="twelve columns">
             <div className="download">
               <p>
-                <a href="/Alex-Goretoy-Resume.docx" className="button">
+                <OutboundLink href="/Alex-Goretoy-Resume.docx" className="button">
                   <FaCloudDownload /> Download Resume
-                </a>
+                </OutboundLink>
               </p>
             </div>
           </div>

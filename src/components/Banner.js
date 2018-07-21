@@ -1,4 +1,5 @@
 import React from "react";
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import SocialLinks from "./SocialLinks";
 
 const Banner = () => (
@@ -8,10 +9,10 @@ const Banner = () => (
       <h3 className="animated pulse">
         I'm a US based <span>full-stack web developer</span>,{" "}
         <span>lead solutions architect</span> and <span>devops engineer</span>.<br />Let's
-        <a className="smoothscroll" href="#about">
+        <OutboundLink className="smoothscroll" href="#about">
           {" "}
           make something
-        </a>{" "}
+        </OutboundLink>{" "}
         and change the world together.
       </h3>
       <hr />

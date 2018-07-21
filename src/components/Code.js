@@ -1,4 +1,5 @@
 import React from 'react';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 import {
   FaArrowCircleLeft
@@ -7,18 +8,18 @@ import GematriaCalculator from "./GematriaCalculator";
 
 
 export default () => (
-	<section id="code">
+	<section id="stuff">
     <div className="row">
       <div className="three columns header-col">
         <h1 className="animated slideInLeft">
-          <span>Code Samples</span>
+          <span>Code Samples & Stuff</span>
         </h1>
       </div>
 
       <div className="nine columns main-col">
         <div className="row item">
 	        <div className="twelve columns">
-	          <h3><a href="https://gist.github.com/FlatEarthTruther">Github Gists <FaArrowCircleLeft /></a></h3>
+	          <h3><OutboundLink href="https://gist.github.com/FlatEarthTruther">Github Gists <FaArrowCircleLeft /></OutboundLink></h3>
 	        	<p className="info">
               One of my github accounts, the other(better) one is flagged for "spam".
             </p>
@@ -27,7 +28,7 @@ export default () => (
 
 	      <div className="row item">
 	        <div className="twelve columns">
-	          <h3><a href="https://stackoverflow.com/users/2530572/art-gallery">StackOverflow Profile <FaArrowCircleLeft /></a></h3>
+	          <h3><OutboundLink href="https://stackoverflow.com/users/2530572/art-gallery">StackOverflow Profile <FaArrowCircleLeft /></OutboundLink></h3>
 	        	<p className="info">
               My StackOverflow profile.
             </p>
@@ -36,7 +37,7 @@ export default () => (
 
 	      <div className="row item">
 	        <div className="twelve columns">
-	          <h3><a href="https://coderwall.com/gxela">Coderwall Protips <FaArrowCircleLeft /></a></h3>
+	          <h3><OutboundLink href="https://coderwall.com/gxela">Coderwall Protips <FaArrowCircleLeft /></OutboundLink></h3>
 	        	<p className="info">
               My CoderWall profile.
             </p>
@@ -45,7 +46,7 @@ export default () => (
 
 	      <div className="row item">
 	        <div className="twelve columns">
-	          <h3><a href="https://www.npmjs.org/~gxela">NPM Packages <FaArrowCircleLeft /></a></h3>
+	          <h3><OutboundLink href="https://www.npmjs.org/~gxela">NPM Packages <FaArrowCircleLeft /></OutboundLink></h3>
 	        	<p className="info">
               My NODE Package Manager profile.
             </p>
@@ -54,7 +55,7 @@ export default () => (
 
 	      <div className="row item">
 	        <div className="twelve columns">
-	          <h3><a href="http://angular-address-book.appspot.com/#/">Angular Address Book <FaArrowCircleLeft /></a></h3>
+	          <h3><OutboundLink href="http://angular-address-book.appspot.com/#/">Angular Address Book <FaArrowCircleLeft /></OutboundLink></h3>
 	        	<p className="info">
               Demo Address Book app written with Angular running on Google Cloud.
             </p>
@@ -63,7 +64,7 @@ export default () => (
 
         <div className="row item">
           <div className="twelve columns">
-            <h3><a href="https://jsfiddle.net/9Lkaynz7">Gematria Calculator <FaArrowCircleLeft /></a></h3>
+            <h3><OutboundLink href="https://jsfiddle.net/9Lkaynz7">Gematria Calculator <FaArrowCircleLeft /></OutboundLink></h3>
             <p className="info">
             	Just a simple calculator to translate letters to numbers.
             </p>

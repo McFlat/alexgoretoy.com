@@ -1442,6 +1442,16 @@ ul#nav li.current a {
   -moz-animation: photoshop 2s ease;
   -webkit-animation: photoshop 2s ease;
 }
+.data-structures {
+  width: 100%;
+  -moz-animation: photoshop 2s ease;
+  -webkit-animation: photoshop 2s ease;
+}
+.algorithms {
+  width: 100%;
+  -moz-animation: photoshop 2s ease;
+  -webkit-animation: photoshop 2s ease;
+}
 .plusmore {
   width: 100%;
   -moz-animation: photoshop 2s ease;
@@ -1849,6 +1859,22 @@ ul#nav li.current a {
   }
 }
 @-moz-keyframes uxui-design {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-moz-keyframes data-structures {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-moz-keyframes algorithms {
   0% {
     width: 0px;
   }
@@ -2273,6 +2299,22 @@ ul#nav li.current a {
     width: 100%;
   }
 }
+@-webkit-keyframes data-structures {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-webkit-keyframes algorithms {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
 @-moz-keyframes plusmore {
   0% {
     width: 0px;
@@ -2282,43 +2324,44 @@ ul#nav li.current a {
   }
 }
 
-#code {
+#stuff {
   background: #fff;
   /*padding-top: 90px;*/
   padding-bottom: 72px;
   overflow: hidden;
 }
 
-#code a,
-#code a:visited {
+#stuff a,
+#stuff a:visited {
   color: #11abb0;
 }
-#code a:hover,
-#code a:focus {
+#stuff a:hover,
+#stuff a:focus {
   color: #313131;
 }
 
-#code h1 {
+#stuff h1 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
+  line-height: 4.5rem;
 }
-#code h1 span {
+#stuff h1 span {
   border-bottom: 3px solid #11abb0;
   padding-bottom: 6px;
 }
-#code h3 {
+#stuff h3 {
   font: 25px/30px "opensans-bold", sans-serif;
 }
-#code h4 {
+#stuff h4 {
    font-family: 'Rubik Mono One', sans-serif;
 }
 
-#code .header-col {
+#stuff .header-col {
   padding-top: 9px;
   /*z-index: 9999;*/
 }
-#code .main-col {
+#stuff .main-col {
   padding-right: 10%;
 }
 

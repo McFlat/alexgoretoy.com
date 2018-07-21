@@ -1,11 +1,12 @@
 import React from "react";
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import { FaChevronCircleDown } from "react-icons/lib/fa";
 
 const ScrollDown = () => (
   <p className="scrolldown">
-    <a className="smoothscroll" href="#about">
+    <OutboundLink className="smoothscroll" href="#about">
       <FaChevronCircleDown />
-    </a>
+    </OutboundLink>
   </p>
 );
 

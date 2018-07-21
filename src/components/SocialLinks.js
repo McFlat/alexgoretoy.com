@@ -1,4 +1,5 @@
 import React from "react";
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import {
   FaFacebook,
   FaGithub,
@@ -12,14 +13,14 @@ import {
 const SocialLinks = () => (
   <ul className="social">
     <li className="animated slideInLeft">
-      <a href="https://bitbucket.org/FlatEarthTruther/">
+      <OutboundLink href="https://bitbucket.org/FlatEarthTruther/">
         <FaBitbucket />
-      </a>
+      </OutboundLink>
     </li>
     <li className="animated slideInRight">
-      <a href="https://github.com/FlatEarthTruther">
+      <OutboundLink href="https://github.com/FlatEarthTruther">
         <FaGithub />
-      </a>
+      </OutboundLink>
     </li>
   </ul>
 );

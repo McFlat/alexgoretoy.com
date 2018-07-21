@@ -1,48 +1,58 @@
 import React from "react";
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
+
+const audioTrack = "/I-feel-No-Pain-couse-GOD-is-Here"
 
 const Navigation = () => (
   <nav id="nav-wrap">
     <a className="mobile-btn" href="#nav-wrap" />
     <ul id="nav" className="nav">
       <li>
-        <a className="smoothscroll" href="#home">
+        <OutboundLink className="smoothscroll" href="#home">
           Home
-        </a>
+        </OutboundLink>
       </li>
       <li>
-        <a className="smoothscroll" href="#about">
+        <OutboundLink className="smoothscroll" href="#about">
           About
-        </a>
+        </OutboundLink>
       </li>
       <li>
-        <a className="smoothscroll" href="#education">
+        <OutboundLink className="smoothscroll" href="#education">
           Education
-        </a>
+        </OutboundLink>
       </li>
       <li>
-        <a className="smoothscroll" href="#skills">
+        <OutboundLink className="smoothscroll" href="#skills">
           Skills
-        </a>
+        </OutboundLink>
       </li>
       <li>
-        <a className="smoothscroll" href="#experience">
+        <OutboundLink className="smoothscroll" href="#experience">
           Experience
-        </a>
+        </OutboundLink>
       </li>
       <li>
-        <a className="smoothscroll" href="#code">
-          Code Samples
-        </a>
+        <OutboundLink className="smoothscroll" href="#stuff">
+          Stuff
+        </OutboundLink>
       </li>
       <li>
-        <a className="smoothscroll" href="#portfolio">
+        <OutboundLink className="smoothscroll" href="#portfolio">
           Portfolio
-        </a>
+        </OutboundLink>
       </li>
       <li>
-        <a className="smoothscroll" href="#recommendations">
+        <OutboundLink className="smoothscroll" href="#recommendations">
           Recommendations
-        </a>
+        </OutboundLink>
+      </li>
+      <li>
+        <audio preload loop autoPlay controls style={{height: '32px', width: '180px'}}>
+          <source src={audioTrack + '.ogg'} type="audio/ogg" />
+          <source src={audioTrack + '.mp3'} type="audio/mpeg" />
+          <embed src={audioTrack + '.mp3'} width="180" height="32" hidden="true" />
+        </audio>
       </li>
     </ul>
   </nav>

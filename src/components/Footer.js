@@ -1,4 +1,5 @@
 import React from "react";
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import SocialLinks from "./SocialLinks";
 import { FaChevronCircleUp } from "react-icons/lib/fa";
 
@@ -12,9 +13,9 @@ const Footer = () => (
       </div>
 
       <div id="go-top">
-        <a className="smoothscroll" title="Back to Top" href="#home">
+        <OutboundLink className="smoothscroll" title="Back to Top" href="#home">
           <FaChevronCircleUp />
-        </a>
+        </OutboundLink>
       </div>
     </div>
   </footer>

@@ -1,4 +1,6 @@
 import React from "react";
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
+
 import { FaPlus, FaTag } from "react-icons/lib/fa";
 
 import ABTranslator from "../assets/images/portfolio/AB-Translator.png";
@@ -41,7 +43,7 @@ const Portfolio = () => (
         >
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="http://originalglo.com" title="OriginalGlo by Vita - Mobile Express Tanning">
+              <OutboundLink href="http://originalglo.com" title="OriginalGlo by Vita - Mobile Express Tanning">
                 <img alt="" src={OriginalGlo} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -52,13 +54,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="https://www.casademontecristo.com/rewards/" title="CDM Rewards">
+              <OutboundLink href="https://www.casademontecristo.com/rewards/" title="CDM Rewards">
                 <img alt="" src={CDMRewards} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -69,13 +71,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="http://fox.com" title="FOX Broadcasting">
+              <OutboundLink href="http://fox.com" title="FOX Broadcasting">
                 <img alt="" src={FOX} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -86,13 +88,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="http://app4.appliedmerchant.com" title="AppliedMerchant.com HostGator">
+              <OutboundLink href="http://app4.appliedmerchant.com" title="AppliedMerchant.com HostGator">
                 <img alt="" src={App4} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -103,13 +105,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="#" title="Cisco POCBuilder">
+              <OutboundLink href="#" title="Cisco POCBuilder">
                 <img alt="" src={POCBuilder} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -120,13 +122,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="https://www.fasternotes.com/" title="FasterNotes">
+              <OutboundLink href="https://www.fasternotes.com/" title="FasterNotes">
                 <img alt="" src={FasterNotes} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -137,13 +139,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="http://www.boostmood.com" title="BoostMood">
+              <OutboundLink href="http://www.boostmood.com" title="BoostMood">
                 <img alt="" src={BoostMood} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -154,13 +156,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="https://www.causecast.org" title="Causecast">
+              <OutboundLink href="https://www.causecast.org" title="Causecast">
                 <img alt="" src={Causecast} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -171,13 +173,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="http://mindsandmachines.com" title="">
+              <OutboundLink href="http://mindsandmachines.com" title="">
                 <img alt="" src={MMX} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -188,13 +190,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="https://villageofchange.com/" title="Village of Change">
+              <OutboundLink href="https://villageofchange.com/" title="Village of Change">
                 <img alt="" src={VOC} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -205,13 +207,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="#" title="Sindulge Contest">
+              <OutboundLink href="#" title="Sindulge Contest">
                 <img alt="" src={Sindulge} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -222,13 +224,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="#" title="">
+              <OutboundLink href="#" title="">
                 <img alt="" src={TimeTracker} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -239,13 +241,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="#" title="Barn.IO">
+              <OutboundLink href="#" title="Barn.IO">
                 <img alt="" src={BarnIO} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -256,13 +258,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="http://www.llama.com" title="">
+              <OutboundLink href="http://www.llama.com" title="">
                 <img alt="" src={Llama} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -273,13 +275,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="#" title="AB Translator">
+              <OutboundLink href="#" title="AB Translator">
                 <img alt="" src={ABTranslator} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -290,13 +292,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="https://www.easyturf.com/" title="EasyTurf">
+              <OutboundLink href="https://www.easyturf.com/" title="EasyTurf">
                 <img alt="" src={EasyTurf} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -307,13 +309,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="#" title="Quizzes Interface">
+              <OutboundLink href="#" title="Quizzes Interface">
                 <img alt="" src={Quizzes} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -324,13 +326,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="#" title="">
+              <OutboundLink href="#" title="">
                 <img alt="" src={VlifeTech} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -341,7 +343,7 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
@@ -349,7 +351,7 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="https://github.com/FlatEarthTruther/rdns.py" title="Reverse DNS Console client">
+              <OutboundLink href="https://github.com/FlatEarthTruther/rdns.py" title="Reverse DNS Console client">
                 <img alt="" src={RDNSpy} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -360,13 +362,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="https://github.com/FlatEarthTruther/pygtk-csvfieldsdata" title="PyGTK CSV Fields Data">
+              <OutboundLink href="https://github.com/FlatEarthTruther/pygtk-csvfieldsdata" title="PyGTK CSV Fields Data">
                 <img alt="" src={CSVFieldData} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -377,13 +379,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
           
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="https://github.com/FlatEarthTruther/pygtk-configparser" title="PyGTK ConfigParser">
+              <OutboundLink href="https://github.com/FlatEarthTruther/pygtk-configparser" title="PyGTK ConfigParser">
                 <img alt="" src={ConfigParser} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -394,13 +396,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="https://launchpad.net/~a1g/+archive/ubuntu/courtesyflush" title="CourtesyFlush">
+              <OutboundLink href="https://launchpad.net/~a1g/+archive/ubuntu/courtesyflush" title="CourtesyFlush">
                 <img alt="" src={Courtesyflush} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -411,13 +413,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="https://github.com/FlatEarthTruther/developer_access" title="Developer Access">
+              <OutboundLink href="https://github.com/FlatEarthTruther/developer_access" title="Developer Access">
                 <img alt="" src={DeveloperAccess} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -428,13 +430,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="#" title="">
+              <OutboundLink href="#" title="">
                 <img alt="" src={Jellpy} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -445,13 +447,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="#" title="">
+              <OutboundLink href="#" title="">
                 <img alt="" src={FMM} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -462,13 +464,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="#" title="">
+              <OutboundLink href="#" title="">
                 <img alt="" src={HotPersonals} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -479,13 +481,13 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 
           <div className="columns portfolio-item animated pulse">
             <div className="item-wrap">
-              <a href="http://www.centralmotorauto.com" title="Central Motor Auto">
+              <OutboundLink href="http://www.centralmotorauto.com" title="Central Motor Auto">
                 <img alt="" src={CentralMotorAuto} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -496,7 +498,7 @@ const Portfolio = () => (
                 <div className="link-icon">
                   <FaPlus />
                 </div>
-              </a>
+              </OutboundLink>
             </div>
           </div>
 

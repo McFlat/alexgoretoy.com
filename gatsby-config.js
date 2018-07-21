@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Alex Goretoy - Solutions Architect/Developer Portfolio",
+    title: "Alex Goretoy - Entrepreneur, Solutions Architect",
     author: "Alex Goretoy",
-    description: "Alex Goretoy is a web developer and web solutions architect, specializing in Linux, AWS, DevOps and Full-Stack Web Development using Python, Node.js, PHP, Java, React.js and Angular.js"
+    description: "Alex Goretoy is a entrepreneur, web developer and solutions architect, specializing in Linux, AWS, DevOps and Full-Stack Web Development and mobile development using Java, Swift, Python, Node.js, PHP, Java, React.js and Angular.js"
   },
   pathPrefix: "/",
 
