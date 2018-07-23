@@ -11,6 +11,11 @@ const Footer = () => (
 
         &copy; Copyright {new Date().getFullYear()} Alex Goretoy All rights reserved.
       </div>
+      <div className="row">
+        <div className="twelve columns">
+          Score by <OutboundLink href="http://k4god.pl">K4GOD.pl</OutboundLink>
+        </div>
+      </div>
 
       <div id="go-top">
         <OutboundLink className="smoothscroll" title="Back to Top" href="#home">
