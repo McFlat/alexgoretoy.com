@@ -13,7 +13,7 @@ const Banner = () => (
           {" "}
           make something
         </OutboundLink>{" "}
-        and change the world together.
+        and <span>change the world</span> together. <span>Jesus Christ is LORD!</span>
       </h3>
       <hr />
       <SocialLinks />

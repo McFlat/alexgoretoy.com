@@ -1,4 +1,5 @@
 import React from "react";
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import { FaCloudDownload } from "react-icons/lib/fa";
 
 import profilePic1 from "../assets/images/profilepic1.jpg";
@@ -14,7 +15,7 @@ const About = () => (
       <div className="nine columns main-col">
         <h2 className="animated slideInDown">About Me</h2>
         <p>
-          I've been working with technology since my teenage years when I bought my first computer at 15 with my paperboy money. I started with VS.net development in 2003, then grew tired of MS, learned Linux, open-source web development and have been doing it very successfully for many years now. I prefer to work remotely not on-site, since it's all internet based industry, it makes things easier on me. I'm very detail oriented and like to make things that are solid and scale beyond expectations. I love open-source, hot-pockets and kittens. When I am not working or learning some new technology, or creating something from nothing, I like to do research about how the Earth is Flat! <a href="https://audiobible.life" title="Proceed with the github SSL to view the site">Learn more</a>
+          I've been working with technology since my teenage years when I bought my first computer at 15 with my paperboy money. I started with VS.net development in 2003, then grew tired of MS, learned Linux, open-source web development and have been doing it very successfully for many years now. I prefer to work remotely not on-site, since it's all internet based industry, it makes things easier on me. I'm very detail oriented and like to make things that are solid and scale beyond expectations. I love open-source, hot-pockets and kittens. <OutboundLink href="http://waterizlife.com">Ask me about the water that I drink!</OutboundLink> When I am not working or learning some new technology, or creating something from nothing, I like to do research about how the Earth is Flat! <OutboundLink href="https://audiobible.life" title="Proceed with the github SSL to view the site">Learn more</OutboundLink>
         </p>
         <div className="row">
           <div className="columns contact-details animated pulse">
@@ -22,18 +23,20 @@ const About = () => (
             <p className="address">
               <span>Aleksandr Goretoy</span>
               <br />
-              <span>+1 (310) 741-0216</span>
+              <span><OutboundLink href="tel:+13107410216">+1 (310) 741-0216</OutboundLink></span>
               <br />
-              <span>alex@goretoy.com</span>
+              <span><OutboundLink href="mailto:alex@goretoy.com">alex@goretoy.com</OutboundLink></span>
               <br />
-              <span>Hire me @ $100/hr</span>
+              <span><OutboundLink href="//goretoy.com">Hire me @ $120/hr</OutboundLink></span>
+              <br />
+              <span>Remote Work Only</span>
             </p>
           </div>
           <div className="columns download animated slideInUp">
             <p>
-              <a href="/Alex-Goretoy-Resume.docx" className="button">
+              <OutboundLink href="/Alex-Goretoy-Resume.docx" className="button">
                 <FaCloudDownload /> Download Resume
-              </a>
+              </OutboundLink>
             </p>
           </div>
         </div>

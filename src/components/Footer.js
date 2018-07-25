@@ -13,10 +13,15 @@ const Footer = () => (
       </div>
       <div className="row">
         <div className="twelve columns">
-          Score by <OutboundLink href="http://k4god.pl">K4GOD.pl</OutboundLink>
+          Images from <OutboundLink href="//unsplash.com">UnSplash</OutboundLink>
         </div>
       </div>
-
+      <div className="row">
+        <div className="twelve columns">
+          Score by <OutboundLink href="//k4god.pl">K4GOD.pl</OutboundLink>
+        </div>
+      </div>
+      
       <div id="go-top">
         <OutboundLink className="smoothscroll" title="Back to Top" href="#home">
           <FaChevronCircleUp />

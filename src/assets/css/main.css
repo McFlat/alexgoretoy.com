@@ -848,19 +848,41 @@ header {
 }
 
 .bg-1 {
-   background: url(../images/header-background-1.jpg) no-repeat top center;
+   background: url(https://source.unsplash.com/daily?waters) no-repeat top center;
 }
 .bg-2 {
-   background: url(../images/molly-martirez-787-unsplash.jpg) no-repeat top center;
+   background: url(https://source.unsplash.com/weekly?ocean) no-repeat top center;
 }
 .bg-3 {
-   background: url(../images/steven-kamenar-11107-unsplash.jpg) no-repeat top center;
+   background: url(https://source.unsplash.com/daily?beaches) no-repeat top center;
 }
 .bg-4 {
-   background: url(../images/vladimir-kudinov-61641-unsplash.jpg) no-repeat top center;
+   background: url(https://source.unsplash.com/weekly?pattern) no-repeat top center;
 }
-
-
+.bg-5 {
+   background: url(https://source.unsplash.com/daily?building) no-repeat top center;
+}
+.bg-6 {
+   background: url(https://source.unsplash.com/weekly?forest) no-repeat top center;
+}
+.bg-7 {
+   background: url(https://source.unsplash.com/daily?earth) no-repeat top center;
+}
+.bg-8 {
+   background: url(https://source.unsplash.com/weekly?sky) no-repeat top center;
+}
+.bg-9 {
+   background: url(https://source.unsplash.com/daily?stars) no-repeat top center;
+}
+.bg-10 {
+   background: url(https://source.unsplash.com/weekly?sunset) no-repeat top center;
+}
+.bg-9 {
+   background: url(https://source.unsplash.com/daily?mountain) no-repeat top center;
+}
+.bg-10 {
+   background: url(https://source.unsplash.com/weekly?architecture) no-repeat top center;
+}
 /* vertically center banner section */
 header:before {
   content: "";
@@ -1146,6 +1168,7 @@ ul#nav li.current a {
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+
 
 .bars {
   width: 95%;

@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 import Banner from "./Banner";
 import ScrollDown from "./ScrollDown";
 
-const imagesCount = 4;
+const imagesCount = 10;
 const imageNumber = randomInt(1, imagesCount);
 let bgImageClass = 'bg-' + imageNumber;
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
-const audioTrack = "/I-feel-No-Pain-couse-GOD-is-Here"
+const audioTrack = "/I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl"
 
 const Navigation = () => (
   <nav id="nav-wrap">
@@ -48,10 +48,10 @@ const Navigation = () => (
         </OutboundLink>
       </li>
       <li>
-        <audio preload loop autoPlay controls style={{height: '32px', width: '180px'}}>
+        <audio preload loop autoPlay controls style={{height: '30px', width: '180px'}}>
           <source src={audioTrack + '.ogg'} type="audio/ogg" />
           <source src={audioTrack + '.mp3'} type="audio/mpeg" />
-          <embed src={audioTrack + '.mp3'} width="180" height="32" hidden="true" />
+          <embed src={audioTrack + '.mp3'} width="180" height="30" hidden="true" />
         </audio>
       </li>
     </ul>

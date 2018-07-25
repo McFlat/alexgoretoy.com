@@ -39,16 +39,86 @@ export default () => (
 	        <div className="twelve columns">
 	          <h3><OutboundLink href="https://coderwall.com/gxela">Coderwall Protips <FaArrowCircleLeft /></OutboundLink></h3>
 	        	<p className="info">
-              My CoderWall profile.
+              CoderWall profile.
             </p>
 	        </div>
 	      </div>
 
 	      <div className="row item">
 	        <div className="twelve columns">
-	          <h3><OutboundLink href="https://www.npmjs.org/~gxela">NPM Packages <FaArrowCircleLeft /></OutboundLink></h3>
+	          <h3><OutboundLink href="https://travis-ci.org/FlatEarthTruther">Travis CI profile <FaArrowCircleLeft /></OutboundLink></h3>
 	        	<p className="info">
-              My NODE Package Manager profile.
+              Travis CI profile with my public projects configures for continuous integration.
+            </p>
+	        </div>
+	      </div>
+
+	      <div className="row item">
+	        <div className="twelve columns">
+	          <h3><OutboundLink href="https://libraries.io/github/FlatEarthTruther">Libraries.IO profile <FaArrowCircleLeft /></OutboundLink></h3>
+	        	<p className="info">
+              Libraries.IO profile.
+            </p>
+	        </div>
+	      </div>
+
+	      <div className="row item">
+	        <div className="twelve columns">
+	          <h3><OutboundLink href="https://www.npmjs.com/package/mongoclient">📦 MongoClient <FaArrowCircleLeft /></OutboundLink></h3>
+	        	<code>
+	        		$ npm install --save mongoclient
+	        	</code>
+	        	<p className="info">
+              A mongodb client wrapper for mongoose.
+            </p>
+
+	        </div>
+	      </div>
+
+	      <div className="row item">
+	        <div className="twelve columns">
+	          <h3><OutboundLink href="https://www.npmjs.com/package/videolerx">📦 VIDEOLERX <FaArrowCircleLeft /></OutboundLink></h3>
+	        	<code>
+	        		$ npm install -g videolerx
+	        	</code>
+	        	<p className="info">
+              Downloads videos from youtube, vimeo, etc and uploads them to S3.
+            </p>
+	        </div>
+	      </div>
+
+	      <div className="row item">
+	        <div className="twelve columns">
+	          <h3><OutboundLink href="https://www.npmjs.com/package/notify-used-or-free">📦 notify-used-or-free <FaArrowCircleLeft /></OutboundLink></h3>
+	        	<code>
+            	$ npm install -g notify-used-or-free
+            </code>
+	        	<p className="info">
+              Notify by email or sms of free disk space on server or when a certain amount of disk space has been used.
+            </p>
+	        </div>
+	      </div>
+
+	      <div className="row item">
+	        <div className="twelve columns">
+	          <h3><OutboundLink href="https://www.npmjs.com/package/dictionary-definitions-data">📦 dictionary-definitions-data <FaArrowCircleLeft /></OutboundLink></h3>
+	        	<code>
+        			$ npm i -S dictionary-definitions-data
+	        	</code>
+	        	<p className="info">
+              Data scraped with spiders from dictionary.com on 2018-03
+            </p>
+	        </div>
+	      </div>
+
+	      <div className="row item">
+	        <div className="twelve columns">
+	          <h3><OutboundLink href="https://www.npmjs.com/package/thesaurus-synonyms-data">📦 thesaurus-synonyms-data <FaArrowCircleLeft /></OutboundLink></h3>
+	        	<code>
+        			$ npm i -S thesaurus-synonyms-data
+	        	</code>
+	        	<p className="info">
+              Data scraped with spiders from thesaurus.com on 2018-03
             </p>
 	        </div>
 	      </div>

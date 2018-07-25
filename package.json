@@ -36,7 +36,7 @@
     "develop": "rm -rf ./previous; mv ./public ./previous && ./node_modules/.bin/gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npm run build && cp I* ./public/ && s3-deploy './public/**' --cwd './public/' --bucket alexgoretoy.com  --deleteRemoved --gzip && date && npm run clear",
+    "deploy": "npm run build && s3-deploy './public/**' --cwd './public/' --bucket alexgoretoy.com  --deleteRemoved --gzip && aws s3api put-object --bucket alexgoretoy.com --key I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.ogg --body I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.ogg --acl public-read && aws s3api put-object --bucket alexgoretoy.com --key I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.mp3 --body I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.mp3 --acl public-read && npm run clear",
     "clear": "aws-cloudfront-invalidate E1C404FIXXJIE4 && date"
   },
   "devDependencies": {
