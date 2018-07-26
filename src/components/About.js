@@ -1,6 +1,6 @@
 import React from "react";
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
-import { FaCloudDownload } from "react-icons/lib/fa";
+import { FaCloudDownload, FaSkype } from "react-icons/lib/fa";
 
 import profilePic1 from "../assets/images/profilepic1.jpg";
 import profilePic2 from "../assets/images/profilepic2.jpg";
@@ -20,17 +20,22 @@ const About = () => (
         <div className="row">
           <div className="columns contact-details animated pulse">
             <h2>Contact Alex</h2>
-            <p className="address">
-              <span>Aleksandr Goretoy</span>
-              <br />
-              <span><OutboundLink href="tel:+13107410216">+1 (310) 741-0216</OutboundLink></span>
-              <br />
-              <span><OutboundLink href="mailto:alex@goretoy.com">alex@goretoy.com</OutboundLink></span>
-              <br />
-              <span><OutboundLink href="//goretoy.com">Hire me @ $120/hr</OutboundLink></span>
-              <br />
-              <span>Remote Work Only</span>
-            </p>
+            <div className="row">
+              <div className="columns">
+                <span>Aleksandr Goretoy</span>
+                <br />
+                <span><OutboundLink href="tel:+13107410216">+1 (310) 741-0216</OutboundLink></span>
+                <br />
+                <span><OutboundLink href="mailto:alex@goretoy.com">alex@goretoy.com</OutboundLink></span>
+              </div>
+              <div className="columns">
+                <span>Remote Work Only</span>
+                <br />
+                <span><OutboundLink href="//goretoy.com">Hire me @ $120/hr</OutboundLink></span>             
+                <br />
+                <span><FaSkype />&nbsp;&nbsp;&nbsp;&nbsp;<OutboundLink href="skype:superleetdude">superleetdude</OutboundLink></span>
+              </div>
+            </div>
           </div>
           <div className="columns download animated slideInUp">
             <p>

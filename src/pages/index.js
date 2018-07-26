@@ -5,6 +5,7 @@ import "../assets/css/main.css";
 
 import Header from "../components/Header";
 import About from "../components/About";
+import Videos from "../components/Videos";
 import Resume from "../components/Resume";
 import Portfolio from "../components/Portfolio";
 import Code from "../components/Code";
@@ -15,6 +16,7 @@ const IndexPage = () => (
   <div>
     <Header />
     <About />
+    <Videos />
     <Resume />
     <Code />
     <Portfolio />

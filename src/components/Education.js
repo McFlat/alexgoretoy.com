@@ -107,15 +107,36 @@ const Education = () => (
               <span>&bull;</span>
               <em className="date">May 2016</em>
             </p>
-            
+            <p>The prep exams/tests prep-material are nothing like the actual exam!</p>
             <ol>
-              <li>Amazon Web Services</li>
+              <li>VPC</li>
+              <li>EC2</li>
+              <li>S3</li>
+              <li>CloudFront</li>
+              <li>Route53</li>
+              <li>RDS</li>
+              <li>ElastiCache</li>
+              <li>SES</li>
+              <li>Simple Queue Service</li>
+              <li>EMR</li>
+              <li>Elastic Transcoder</li>
+              <li>API Gateway</li>
+              <li>Lambda</li>
+              <li>DynamoDB</li>
+              <li>Elastic Container Service</li>
+              <li>Elastic Beanstalk</li>
+              <li>CloudFormation</li>
+              <li>OpsWorks</li>
             </ol>
-            <div className="row certifications">
-              <div className="three columns">
-
-              </div>
-            </div>
+            <p>And more recently I'm learning more tools that weren't on that exam ...</p>
+            <ol>
+              <li>CodeBuild</li>
+              <li>CodeCommit</li>
+              <li>CodeDeploy</li>
+              <li>CodePipeline</li>
+              <li>CodeStar</li>
+              <li>AWS X-Ray</li>
+            </ol>
           </div>
         </div>
         <div className="row item">
@@ -162,10 +183,41 @@ const Education = () => (
               <li>Business</li>
 
             </ol>
-            
           </div>
         </div>
-
+        <div className="row item">
+          <div className="twelve columns">
+            <h3><OutboundLink href="https://aws.amazon.com/certification/certification-prep/">Cloudera Certified Admin for Apache HADOOP <FaArrowCircleLeft /></OutboundLink></h3>
+            <p className="info">
+              Self-prep for Cloudera Certified Admin for Apache HADOOP - Administrator Exam
+              <span>&bull;</span>
+              <em className="date">Feb 2014</em>
+            </p>
+            
+            <ol>
+              <li>Cloudera</li>
+              <li>HortonWorks</li>
+            </ol>
+          </div>
+        </div>
+        <div className="row item">
+          <div className="twelve columns">
+            <h3>Miscellaneous Sources</h3>
+            <p className="info">
+              Self-taught many languages, patterns, algorithms, frameworks, concepts, use cases, lifecycles, configurations, deployments, processes, etc.
+              <span>&bull;</span>
+              <em className="date">2004 - Current</em>
+            </p>
+            
+            <ol>
+              <li>Github & Bitbucket & Google Code</li>
+              <li>Online Docs & Readmes</li>
+              <li>Books & White Papers</li>
+              <li>YouTube Videos & Playlists</li>
+              <li>Coworkers & places of employment</li>
+            </ol>
+          </div>
+        </div>
         <div className="row item">
           <div className="twelve columns">
             <h3><OutboundLink href="http://www.crisaga.org/closure.htm">Court Reporting Institute (CRI) <FaArrowCircleLeft /></OutboundLink></h3>

@@ -1042,6 +1042,10 @@ ul#nav li.current a {
   color: #f06000;
 }
 
+#videos {
+   margin-top: 1rem;
+}
+
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
@@ -1079,11 +1083,9 @@ ul#nav li.current a {
   /*z-index: 9999;*/
   margin: 3rem;
 }
-#about .contact-details {
-  width: 41.66667%;
-}
+
 #about .download, #experience .download {
-  width: 50%;
+  /*width: 50%;*/
   padding-top: 6px;
 }
 #about .main-col {
@@ -3116,8 +3118,8 @@ footer .social li:first-child {
     height: 114px;
     margin-left: 12px;
  }
- #about .contact-details { width: 50%; }
- #about .download { width: 50%; }
+ /*#about .contact-details { width: 50%; }*/
+ /*#about .download { width: 50%; }*/
 
  /* Resume Section
  ------------------------------------------------------------------- */
@@ -3285,6 +3287,9 @@ footer .social li:first-child {
  }
  #about .main-col { padding-right: 30px; }
 
+ #about .contact-details {
+  width: 41.66667%;
+}
 
  /* Resume Section
  --------------------------------------------------------------------- */
