@@ -1,6 +1,7 @@
 import React from "react";
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import Slider from "react-slick";
+import { Timeline } from 'react-twitter-widgets'
 
 const settings = {
   // dots: true,
@@ -22,8 +23,20 @@ const Testimonials = () => (
   <section id="recommendations">
     <div className="text-container">
       <div className="row">
-        
-        <div className="twelve columns">
+        <div className="six columns">
+          <Timeline
+            dataSource={{
+              sourceType: 'profile',
+              screenName: 'AlexGoretoy'
+            }}
+            options={{
+              username: 'AlexGoretoy',
+              height: '1800'
+            }}
+            onLoad={() => console.log('Timeline is loaded!')}
+          />
+        </div>
+        <div className="six columns">
           <h1 className="animated slideInDown">Work Recommendations</h1>
           <ul className="animated fadeInUpBig">
             <Slider {...settings}>
