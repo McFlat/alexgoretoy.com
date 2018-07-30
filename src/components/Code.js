@@ -132,6 +132,15 @@ export default () => (
 	        </div>
 	      </div>
 
+	      <div className="row item">
+	        <div className="twelve columns">
+	          <h3><OutboundLink href="https://repl.it/@FlatEarthTruth/MerryWhirlwindFreesoftware">Python Console Card Game of War on REPL.it <FaArrowCircleLeft /></OutboundLink></h3>
+	        	<p className="info">
+              A simple card game of war, written using python3, this was a test exam for job placement at a company.
+            </p>
+	        </div>
+	      </div>
+
         <div className="row item">
           <div className="twelve columns">
             <h3><OutboundLink href="https://jsfiddle.net/9Lkaynz7">Gematria Calculator <FaArrowCircleLeft /></OutboundLink></h3>

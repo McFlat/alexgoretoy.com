@@ -4,27 +4,27 @@
   "version": "1.0.1",
   "author": "Alex Goretoy <alex@goretoy.com>",
   "dependencies": {
-    "animate.css": "^3.6.1",
-    "gatsby": "^1.9.145",
-    "gatsby-link": "^1.6.32",
+    "animate.css": "^3.7.0",
+    "gatsby": "^1.9.277",
+    "gatsby-link": "^1.6.46",
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-google-fonts": "0.0.3",
     "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-sass": "^1.0.14",
-    "gatsby-plugin-sharp": "^1.6.21",
+    "gatsby-plugin-sass": "^1.0.26",
+    "gatsby-plugin-sharp": "^1.6.48",
     "gatsby-plugin-typography": "1.7.10",
-    "gatsby-remark-copy-linked-files": "^1.5.9",
-    "gatsby-remark-images": "^1.5.33",
-    "gatsby-source-filesystem": "^1.5.8",
-    "gatsby-transformer-remark": "^1.7.21",
-    "gatsby-transformer-sharp": "^1.6.14",
+    "gatsby-remark-copy-linked-files": "^1.5.37",
+    "gatsby-remark-images": "^1.5.67",
+    "gatsby-source-filesystem": "^1.5.39",
+    "gatsby-transformer-remark": "^1.7.44",
+    "gatsby-transformer-sharp": "^1.6.27",
     "jquery": "^3.3.1",
     "react-icons": "2.2.7",
     "react-slick": "0.16.0",
     "react-youtube": "^7.6.0",
     "s3-deploy": "^1.1.1",
     "slick-carousel": "^1.8.1",
-    "smooth-scroll": "^14.2.0",
+    "smooth-scroll": "^14.2.1",
     "typography-theme-bootstrap": "0.16.7"
   },
   "keywords": [
@@ -41,6 +41,6 @@
     "clear": "aws-cloudfront-invalidate E1C404FIXXJIE4 && date"
   },
   "devDependencies": {
-    "prettier": "^1.9.2"
+    "prettier": "^1.13.7"
   }
 }
