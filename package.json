@@ -21,6 +21,7 @@
     "jquery": "^3.3.1",
     "react-icons": "2.2.7",
     "react-slick": "0.16.0",
+    "react-twitter-widgets": "^1.7.1",
     "react-youtube": "^7.6.0",
     "s3-deploy": "^1.1.1",
     "slick-carousel": "^1.8.1",
@@ -35,6 +36,7 @@
   "scripts": {
     "build": "if [ -d ./public ]; then rm -rf ./public/; fi && ./node_modules/.bin/gatsby build --prefix-paths && date",
     "develop": "rm -rf ./previous; if [ -d ./public ]; then mv ./public ./previous; fi && ./node_modules/.bin/gatsby develop",
+    "start": "npm run develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "npm run build && s3-deploy './public/**' --cwd './public/' --bucket alexgoretoy.com  --deleteRemoved --gzip && aws s3api put-object --bucket alexgoretoy.com --key I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.ogg --body I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.ogg --acl public-read && aws s3api put-object --bucket alexgoretoy.com --key I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.mp3 --body I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.mp3 --acl public-read && npm run clear",

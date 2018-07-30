@@ -22,8 +22,8 @@ const Testimonials = () => (
   <section id="recommendations">
     <div className="text-container">
       <div className="row">
-        <div className="two columns header-col" />
-        <div className="ten columns">
+        
+        <div className="twelve columns">
           <h1 className="animated slideInDown">Work Recommendations</h1>
           <ul className="animated fadeInUpBig">
             <Slider {...settings}>
