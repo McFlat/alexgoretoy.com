@@ -70,7 +70,7 @@ audio:not([controls]) {
    height: 0;
 }
 
-[hidden] { display: none; }
+[hidden], .hidden { display: none; }
 
 code, kbd, pre, samp {
    font-family: monospace, serif;

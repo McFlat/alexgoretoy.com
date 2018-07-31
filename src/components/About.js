@@ -30,6 +30,7 @@ const About = () => (
       <div className="three columns">
         <img className="profile-pic animated slideInLeft" src={profilePic1} alt="" />
         <img className="profile-pic animated slideInLeft" src={profilePic2} alt="" />
+        <img className="hidden" src="//c.statcounter.com/11777445/0/9f5a21d2/1/" />
       </div>
       <div className="nine columns main-col">
         <h2 className="animated slideInDown">About Me</h2>
