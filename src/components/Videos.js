@@ -51,8 +51,8 @@ const videos = [
 			id: 'AFe6LlwaXJU'
 		},
 		{
-			name: '01 Zombieland ft. Optimiztiq | Never Sleep Again | O.D.D TV | Truth Music',
-			id: 'A6VhSX8e3Qc'
+			name: 'Payday Monsanto POP CULTURE (gay rap industry)',
+			id: '3L5jB-q3hSo'
 		},
 		{
 			name: 'flouride song',
@@ -89,6 +89,22 @@ const videos = [
 		{
 			name: 'K-Rino - Deprogrammed',
 			id: '1bpusYY9noI'
+		},
+		{
+			name: 'Best of PayDay Monsanto',
+			id: 'DiSvqH3Q5Dk'
+		},
+		{
+			name: 'ODD TV living in hell',
+			id: 'CqrN8iOMg5k'
+		},
+		{
+			name: 'ODD TV never sleep again',
+			id: 'TlTR7QQZQ8I'
+		},
+		{
+			name: 'K-Rino grand deception',
+			id: 'z_w_2QH6svM'
 		}
 	]
 ]
@@ -261,6 +277,34 @@ const Videos = () => (
 	        <div className="three columns video">
 	          <YouTube
 			        videoId={videoList[19].id}
+			        opts={opts}
+			        onReady={_onReady}
+		      	/>
+	        </div>
+	        <div className="three columns video">
+	          <YouTube
+			        videoId={videoList[20].id}
+			        opts={opts}
+			        onReady={_onReady}
+		      	/>
+	        </div>
+	        <div className="three columns video">
+	          <YouTube
+			        videoId={videoList[21].id}
+			        opts={opts}
+			        onReady={_onReady}
+		      	/>
+	        </div>
+	        <div className="three columns video">
+	          <YouTube
+			        videoId={videoList[22].id}
+			        opts={opts}
+			        onReady={_onReady}
+		      	/>
+	        </div>
+	        <div className="three columns video">
+	          <YouTube
+			        videoId={videoList[23].id}
 			        opts={opts}
 			        onReady={_onReady}
 		      	/>
