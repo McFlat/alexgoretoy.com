@@ -15,7 +15,7 @@ const Banner = () => (
         </OutboundLink>{" "}
         and <span>change the world</span> together. <span>Jesus Christ is LORD!</span>
         <br />
-        <span>Psalm 23:4 Yea, though I walk through the valley of the shadow of death, I will fear no evil; for thou <italic>art</italic> with me; thy rod and thy staff they comfort me.</span>
+        <bold>Proverbs 4:19</bold> <span>The way of the wicked <italic>is</italic> as darkness: they know not at what they stumble.</span>
       </h3>
       <hr />
       <SocialLinks />
