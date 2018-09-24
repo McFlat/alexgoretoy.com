@@ -40,7 +40,7 @@
     "start": "npm run develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npm run build && s3-deploy './public/**' --cwd './public/' --bucket alexgoretoy.com  --deleteRemoved --gzip && aws s3api put-object --bucket alexgoretoy.com --key I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.ogg --body static/I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.ogg --acl public-read && aws s3api put-object --bucket alexgoretoy.com --key I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.mp3 --body static/I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.mp3 --acl public-read && npm run invalidate",
+    "deploy": "npm run build && s3-deploy './public/**' --cwd './public/' --bucket alexgoretoy.com  --deleteRemoved --gzip && aws s3api put-object --bucket alexgoretoy.com --key I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.ogg --body ./static/I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.ogg --acl public-read && aws s3api put-object --bucket alexgoretoy.com --key I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.mp3 --body ./static/I-feel-No-Pain-couse-GOD-is-Here-by-K4GOD.pl.mp3 --acl public-read && npm run invalidate",
     "invalidate": "aws-cloudfront-invalidate E1C404FIXXJIE4 && date"
   },
   "devDependencies": {
