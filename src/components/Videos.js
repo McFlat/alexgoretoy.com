@@ -16,7 +16,7 @@ const videos = [
 		},
 		{
 			name: 'NASA crazy',
-			id: 'VPI9orIyEf0'
+			id: 'Bh3Fa3LaP2Q'
 		},
 		{
 			name: '"Rich Old White Men" by DISL Automatic (Prod. by Young Forever)',
@@ -125,6 +125,11 @@ function randomInt (low, high) {
 
 const Videos = () => (
   <section id="videos">
+    <div className="row">
+        <div className="twelve columns">
+            <h2 className="text-center color-white">Some Worldly Music I Like</h2>
+        </div>
+    </div>
     <div className="row">
       <div className="twelve columns">
         <div className="row item">

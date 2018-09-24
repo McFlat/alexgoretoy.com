@@ -7,6 +7,7 @@ import {
 
 import Subnetcert from "../assets/images/certifications/cybrary-subnetting.png";
 import PCIcert from "../assets/images/certifications/cybrary-payment-card-industry.png";
+import InfoSeccert from "../assets/images/certifications/cybrary-infosec-intro.png";
 import HTMLcert from "../assets/images/certifications/cert-1014-860659.jpg";
 import CSScert from "../assets/images/certifications/cert-1023-860659.jpg";
 import JScert from "../assets/images/certifications/cert-1024-860659.jpg";
@@ -37,7 +38,9 @@ const Education = () => (
 
             <ol>
               <li>Create A Subnet</li>
-              <li>Payment Card Industry Data Security Standard PCI/DSS</li>           
+              <li>Payment Card Industry Data Security Standard PCI/DSS</li>
+              <li>InfoSec Intro</li>
+              <li>Web Penetration Testing</li>
             </ol>
             <div className="row certifications">
               <div className="three columns">
@@ -45,6 +48,9 @@ const Education = () => (
               </div>
               <div className="three columns">
                 <img src={PCIcert} />
+              </div>
+              <div className="three columns">
+                <img src={InfoSeccert} />
               </div>
             </div>
           </div>

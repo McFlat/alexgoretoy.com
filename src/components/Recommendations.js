@@ -91,7 +91,7 @@ page 9: based upon the signal having a single bounce on a flat Earth
 http://www.arl.army.mil/arlreports/2009/ARL-TR-4998.pdf
 <br />
 page 1:
-Trajectory of Spinning Projectiles: 
+Trajectory of Spinning Projectiles:
 <br />
 “These equations assume a flat Earth.”
 <br />
@@ -159,7 +159,7 @@ non-rotating earth are developed...”
 <br />
 https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20070030307.pdf
 <br />
-Approximate Optimal Guidance for the Advanced Launch System 
+Approximate Optimal Guidance for the Advanced Launch System
 <br />
 On page one this document does mention a spherical rotating earth but then states that “...these schemes” (based on  a spherical rotating earth) 1) “...are difficult to prove” and 2) “...not suggested to be used as a basis for an online real-time guidance law.”
 <br />
@@ -169,7 +169,7 @@ Page 32 goes on to say:
 <br />
 https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19940020279.pdf
 <br />
-SR-71 
+SR-71
 <br />
 Page 8: “...nonrotating Earth...”
 <br />
@@ -200,7 +200,7 @@ NASA Technical Paper 2835
 <br />
 Page 1 Summary:
 <br />
-Flat nonrotating earth 
+Flat nonrotating earth
 <br />
 page 126:
 "The nonlinear equations of motion used are six-degree-of-freedom equations
@@ -210,8 +210,8 @@ https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19890007066.pdf
 <br />
 Determination of Angles of Attack and Sideslip from Radar Data and a Roll Stabilized Platform
 <br />
-NASA 
-March 1972 
+NASA
+March 1972
 <br />
 page 2:
 "The method is limited, however, to application where a flat, nonrotating earth"
@@ -241,7 +241,7 @@ https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19790005472.pdf
 
 A Mathematical Model of the CH-53 Helicopter
 <br />
-NASA  
+NASA
 <br />
 page 17:
 <br />
@@ -363,6 +363,7 @@ any endeavor he chooses to pursue.
         </div>
       </div>
     </div>
+    <img className="hidden" src="https://a.alexgoretoy.com/track?idsite=alexgoretoy.com&amp;rec=1" alt="" />
   </section>
 );
 

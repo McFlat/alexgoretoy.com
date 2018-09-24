@@ -393,9 +393,12 @@ dd { margin: 0 0 0 20px; }
 	counter-increment: definitions;
 }
 .dictionary-style dd:before {
-  .pagination {
-	content: counter(definitions, decimal) ". ";
+    content: counter(definitions, decimal) ". ";
 }
+
+.pagination {
+	
+
 
 /* Pagination */
    margin: 36px auto;
@@ -786,7 +789,7 @@ properly.
 .half-bottom { margin-bottom: 12px !important; }
 .add-bottom { margin-bottom: 24px !important; }
 .no-border { border: none; }
-
+.color-white  { color: white; }
 .text-center  { text-align: center !important; }
 .text-left    { text-align: left !important; }
 .text-right   { text-align: right !important; }

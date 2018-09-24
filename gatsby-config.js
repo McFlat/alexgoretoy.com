@@ -1,3 +1,19 @@
+/*
+    {
+          resolve: 'gatsby-plugin-google-analytics',
+                options: {
+                        trackingId: "UA-38033052-1",
+                                // Puts tracking script in the head instead of the body
+                                        head: false,
+                                                // Setting this parameter is optional
+                                                        anonymize: true,
+                                                                // Setting this parameter is also optional
+                                                                        respectDNT: true,
+                                                                                // Avoids sending pageview hits from custom paths
+                                                                                        exclude: [],
+                                                                                              },
+                                                                                                  },
+*/
 module.exports = {
   siteMetadata: {
     title: "Alex Goretoy - Entrepreneur, Solutions Architect",
@@ -8,18 +24,12 @@ module.exports = {
 
   plugins: [
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: 'gatsby-plugin-matomo',
       options: {
-        trackingId: "UA-38033052-1",
-        // Puts tracking script in the head instead of the body
-        head: false,
-        // Setting this parameter is optional
-        anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
-        // Avoids sending pageview hits from custom paths
-        exclude: [],
-      },
+        siteId: 'alexgoretoy.com',
+        matomoUrl: 'https://a.alexgoretoy.com',
+        siteUrl: 'http://alexgoretoy.com'
+      }
     },
     {
       resolve: `gatsby-plugin-typography`,

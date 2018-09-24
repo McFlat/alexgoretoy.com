@@ -123,6 +123,14 @@ export default () => (
 	        </div>
 	      </div>
 
+          <div className="row item">
+	        <div className="twelve columns">
+	          <h3><OutboundLink href="https://github.com/FlatEarthTruther/clipbucket-downloader-script">ClipBucket Downloader Script <FaArrowCircleLeft /></OutboundLink></h3>
+	        	<p className="info">
+              The Best ClipBucket Downloader you will find until youtube-dl adds support for clipbucket sites.
+            </p>
+	        </div>
+	      </div>
 	      <div className="row item">
 	        <div className="twelve columns">
 	          <h3><OutboundLink href="http://angular-address-book.appspot.com/#/">Angular Address Book <FaArrowCircleLeft /></OutboundLink></h3>
