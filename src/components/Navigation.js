@@ -48,7 +48,7 @@ const Navigation = () => (
         </OutboundLink>
       </li>
       <li>
-        <audio preload loop autoPlay controls style={{height: '30px', width: '180px'}}>
+        <audio preload loop controls style={{height: '30px', width: '180px'}}>
           <source src={audioTrack + '.ogg'} type="audio/ogg" />
           <source src={audioTrack + '.mp3'} type="audio/mpeg" />
           <embed src={audioTrack + '.mp3'} width="180" height="30" hidden="true" />
