@@ -1,0 +1,1470 @@
+
+<!DOCTYPE html>
+<html itemscope='' itemtype='http://schema.org/WebPage'>
+<head>
+<meta charset='utf-8'>
+<!-- / Title -->
+<title>Recruitee | Recruitment Software - Applicant Tracking System | Recruitee</title>
+<meta content='Recruitee | Recruitment Software - Applicant Tracking System | Recruitee' itemprop='name'>
+<meta content='Recruitee | Recruitment Software - Applicant Tracking System | Recruitee' property='og:title'>
+<meta content='Recruitee | Recruitment Software - Applicant Tracking System | Recruitee' name='twitter:title'>
+<meta content='Recruitee' property='og:site_name'>
+<!-- / Langs -->
+<link href='https://recruitee.com' hreflang='x-default' rel='alternate'>
+<link href='https://recruitee.com/en' hreflang='en' rel='alternate'>
+<link href='https://recruitee.com/nl' hreflang='nl' rel='alternate'>
+<!-- / URL -->
+<meta content='https://recruitee.com/' itemprop='url'>
+<meta content='https://recruitee.com/' property='og:url'>
+<meta content='https://recruitee.com/' name='twitter:url'>
+<link href='https://recruitee.com/' rel='canonical'>
+<!-- / Description -->
+<meta content='Recruitment software with modern applicant tracking system for teams. Used by 2000+ companies. Organize your hiring process from start to hire. Get started today!' name='description'>
+<meta content='Recruitment software with modern applicant tracking system for teams. Used by 2000+ companies. Organize your hiring process from start to hire. Get started today!' itemprop='description'>
+<meta content='Recruitment software with modern applicant tracking system for teams. Used by 2000+ companies. Organize your hiring process from start to hire. Get started today!' property='og:description'>
+<meta content='Recruitment software with modern applicant tracking system for teams. Used by 2000+ companies. Organize your hiring process from start to hire. Get started today!' name='twitter:description'>
+<!-- / Image -->
+<meta href='https://recruitee.com/assets/product/share_image.jpg' itemprop='thumbnailUrl'>
+<meta content='https://recruitee.com/assets/product/share_image.jpg' property='og:image'>
+<meta content='1200' property='og:image:width'>
+<meta content='630' property='og:image:height'>
+<meta content='https://recruitee.com/assets/product/share_image.jpg' name='twitter:image'>
+<meta content='https://recruitee.com/assets/product/share_image.jpg' name='twitter:image:src'>
+<!-- / Keywords -->
+<meta content='applicant tracking system, applicant tracking software, employer brand, employer branding, post job online, sourcing candidates, applicant management, hr software, hr tech, hr technology, recruiting software, recruitment software, recruitment analysis' name='keywords'>
+<!-- / Author -->
+<meta content='Recruitee' property='author'>
+<meta content='Recruitee' property='og:site_name'>
+<meta content='@recruiteehr' name='twitter:site'>
+<!-- / Icons -->
+<link rel="shortcut icon" type="image/x-icon" href="https://d10zminp1cyta8.cloudfront.net/images/favicon.ico" />
+<link href='images/apple-touch-icon.png' rel='apple-touch-icon' sizes='180x180'>
+<link href='images/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+<link href='images/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+<link href='images/manifest.json' rel='manifest'>
+<link color='#1999e3' href='images/safari-pinned-tab.svg' rel='mask-icon'>
+<meta content='#ffffff' name='theme-color'>
+<!-- / Ownership verification for Bing Webmaster Tools -->
+<meta content='D819EE3ECF16A0391ADB12F1413E04C2' name='msvalidate.01'>
+<!-- / Mobile meta -->
+<meta content='width=device-width, initial-scale=1.0' http-equiv='X-UA-Compatible' name='viewport'>
+<!-- / Schema -->
+<script type='application/ld+json'>
+{
+"@context": "http://www.schema.org",
+"@type": "Organization",
+"name": "Recruitee",
+"url": "https://recruitee.com",
+"sameAs": [
+"https://twitter.com/recruitee",
+"https://www.linkedin.com/company/recruitee",
+"https://www.facebook.com/recruitee/",
+"http://recruitee.nl"
+],
+"logo": "https://recruitee.com/assets/logo.png",
+"description": "Recruitment software with modern applicant tracking system for teams. Used by 2000+ companies. Organize your hiring process from start to hire. Get started today!",
+"contactPoint": {
+"@type": "ContactPoint",
+"telephone": "+31 85 888 0226",
+"contactType": "customer service"
+}
+}
+</script>
+<!-- / Tokens -->
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Ub5hMM6yBoxbY7yXMNmSNCYL6KEW7mrbRJqQoFZj06x4BOAUN4t5ywWBkTpxKbAbAhIxhTRgTeE0/wvAOJ3KZA==" />
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js" type="text/javascript"></script>
+<![endif]-->
+<!-- /[endif] -->
+<!-- / Stylesheets -->
+<link rel="stylesheet" media="screen" href="https://fast.fonts.net/cssapi/dc393ef2-1aa6-49d7-a62c-cafd4410950e.css" />
+<link rel="stylesheet" media="screen" href="https://d10zminp1cyta8.cloudfront.net/assets/product-2279417ab1c9b81c319ba0ecbe0b0240c2448873e013c1e4fb4eedfeaf5ef78c.css" />
+    <script src="https://cdn.ravenjs.com/3.24.0/raven.min.js" crossorigin="anonymous"></script>
+    <script>
+    Raven.config("https://6c4417f6be1a4ca38f587fdf05a7e1a7@sentry.io/114075", {
+        environment: "production",
+        release: null,
+    }).install();
+    Raven.setUserContext({
+        id: null,
+        email: null
+    });
+    </script>
+
+<script type="text/javascript">
+!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+analytics.load("5n8hHOdAZhlksXHmjcxJF3oV1qxFsoN6");
+}}();
+
+! function() {
+  var recruitee = window.recruitee = window.recruitee || {};
+
+  var conversionEvents = ['Account Created', 'Subscription purchased', 'Plan changed'];
+
+  recruitee.analytics = {
+    track: function(event, properties) {
+      var options = {}
+      if (conversionEvents.indexOf(event) < 0) {
+        options.integrations = {
+          'All': false,
+          'Mixpanel': true
+        };
+      }
+
+      window.analytics.track(event, properties || {}, options);
+    },
+    page: function() {
+      window.analytics.page.apply(window.analytics, arguments);
+    },
+    identify: function(userId, traits) {
+      window.analytics.identify(userId, traits)
+    },
+    alias: function(userId) {
+      window.analytics.alias(userId)
+    }
+  }
+}();
+</script>
+
+
+<script type="text/javascript">
+  recruitee.analytics.page()
+</script>
+
+<script type='text/javascript'>(function(){var gs=document.createElement('script');gs.src='https://snippet.growsumo.com/growsumo.min.js';gs.type='text/javascript';gs.async ='true';gs.onload=gs.onreadystatechange=function(){var rs=this.readyState;if(rs&&rs!='complete'&&rs!='loaded')return;try{growsumo._initialize('pk_86389cd9dcf0488c81b2113893302a82');}catch(e){}};var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(gs,s);})();</script>
+
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2688240.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+<script>
+  recruitee.analytics.page();
+</script>
+<!-- Google Analytics Content Experiment code -->
+<script>function utmx_section(){}function utmx(){}(function(){var
+k='102164427-2',d=document,l=d.location,c=d.cookie;
+if(l.search.indexOf('utm_expid='+k)>0)return;
+function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+</script><script>utmx('url','A/B');</script>
+<!-- End of Google Analytics Content Experiment code -->
+
+<script>
+  recruitee.analytics.page("Home");
+</script>
+
+</head>
+<body class='pages-controller homepage'>
+
+<!-- / Params adds class from ?h= -->
+<header class='homepage-header-controller  lang-en'>
+<nav class='navbar navbar-default inside-header' id='navbar-main' role='navigation'>
+<div class='navbar-wrapper'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-6 nav-left'>
+<div class='logo pull-left'>
+<a href="/"><svg height='35px' version='1.1' viewbox='0 0 189 35' width='189px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g fill-rule='evenodd' fill='none' id='Page-1' stroke-width='1' stroke='none'>
+<g fill-rule='nonzero' fill='#1999E3' id='logo_horizontal_white_rgba'>
+<path d='M53.379471,22.1939392 C53.3838403,25.432565 52.0161805,28.5214898 49.6154249,30.6952167 C49.4538407,30.8375042 49.2104902,30.8333561 49.0538492,30.6856443 C48.1700056,29.886888 47.1170512,29.1583286 46.0002814,28.7318289 C45.3110748,28.4691221 44.1921778,28.3063928 44.1921778,27.3491615 C44.1921031,27.1513579 44.2493657,26.9577731 44.3570343,26.7918402 C44.3727239,26.7724874 44.3872838,26.7522456 44.4006415,26.7312155 C45.3146083,25.4007294 45.9149899,23.8803203 46.1566292,22.2843444 C46.1566292,22.2843444 46.1566292,22.2747721 46.1566292,22.2715813 C46.2194323,21.8547273 46.2584936,21.4346408 46.2736241,21.013354 L46.2736241,20.9995273 C46.1429699,18.6740706 44.2191607,16.8553154 41.8900366,16.8553154 C39.5609124,16.8553154 37.6371033,18.6740706 37.5064491,20.9995273 L37.5064491,21.013354 C37.5215796,21.4346408 37.5606409,21.8547273 37.623444,22.2715813 C37.623444,22.2715813 37.623444,22.2811536 37.623444,22.2843444 C37.8642234,23.8803771 38.4642851,25.400897 39.378368,26.7312155 C39.3913652,26.7524872 39.405942,26.7727524 39.4219752,26.7918402 C39.5296438,26.9577731 39.5869065,27.1513579 39.5868317,27.3491615 C39.5868317,28.2776759 38.5679122,28.4021159 37.8957231,28.674395 C37.7753994,28.7224781 37.6863504,28.8265707 37.6574778,28.9528883 C37.6286052,29.079206 37.663589,29.2116489 37.7510748,29.3072313 C38.0265447,29.6199268 38.2924423,29.9390039 38.5413225,30.2644626 C39.3063534,31.2534542 39.9604811,32.3234559 40.4919471,33.4552335 L40.5057738,33.4786325 C40.5179316,33.501021 40.5279044,33.5245286 40.5355543,33.5488295 C40.5415616,33.5643457 40.5461885,33.5803617 40.549381,33.5966911 C40.5557738,33.623159 40.5589872,33.6502949 40.5589533,33.6775239 C40.5582357,33.8664834 40.4250196,34.0290072 40.2398762,34.066798 C40.2142405,34.0713832 40.188274,34.0738732 40.1622341,34.0742431 C40.0568073,34.0746189 39.955787,34.031983 39.8825098,33.9561846 C37.5224029,31.4812099 34.9091615,29.5135678 31.5726787,28.5488914 C31.4932328,28.5243878 31.4165866,28.4915903 31.3440068,28.4510411 C31.2972088,28.4244513 31.2504108,28.396798 31.20574,28.3670174 C30.4293191,27.8522397 30.304879,26.877991 30.7218064,26.0898706 C31.3269893,24.9497017 32.0534215,23.9307822 32.547991,22.7225436 C33.8094091,19.6455768 34.5996567,15.8251604 32.4873663,12.9162409 C31.1519402,11.0744219 29.014732,9.98415104 26.7397243,9.98415104 C24.4647165,9.98415104 22.3275083,11.0744219 20.9920822,12.9162409 C18.8797918,15.8251604 19.6700394,19.6455768 20.9314575,22.7225436 C21.426027,23.9307822 22.1524592,24.9497017 22.7576421,26.0898706 C23.1745695,26.8801182 23.0501294,27.8522397 22.2737085,28.3670174 C22.2301013,28.396798 22.1833033,28.4244513 22.1354418,28.4510411 C22.0628619,28.4915903 21.9862157,28.5243878 21.9067698,28.5488914 C18.570287,29.5135678 15.9570456,31.4812099 13.5969387,33.9561846 C13.5236615,34.031983 13.4226412,34.0746189 13.3172144,34.0742431 C13.2911773,34.0738226 13.2652148,34.0713331 13.2395723,34.066798 C13.0544289,34.0290072 12.9212128,33.8664834 12.9204952,33.6775239 C12.9204613,33.6502949 12.9236747,33.623159 12.9300675,33.5966911 C12.9332601,33.5803617 12.9378869,33.5643457 12.9438942,33.5488295 C12.9510818,33.5243607 12.961075,33.5008052 12.9736747,33.4786325 L12.9875014,33.4552335 C13.5189674,32.3234559 14.1730951,31.2534542 14.9381261,30.2644626 C15.1870062,29.9347496 15.4529038,29.6156725 15.7283737,29.3072313 C15.8158595,29.2116489 15.8508433,29.079206 15.8219707,28.9528883 C15.7930981,28.8265707 15.7040491,28.7224781 15.5837254,28.674395 C14.9115363,28.4021159 13.8926168,28.2776759 13.8926168,27.3491615 C13.892542,27.1513579 13.9498047,26.9577731 14.0574733,26.7918402 C14.0731628,26.7724874 14.0877227,26.7522456 14.1010805,26.7312155 C15.0147032,25.4006522 15.6147217,23.8802416 15.8560045,22.2843444 C15.8560045,22.2843444 15.8560045,22.2747721 15.8560045,22.2715813 C15.9193335,21.8547914 15.9583976,21.4346747 15.9729994,21.013354 L15.9729994,20.9995273 C15.8423452,18.6740706 13.9185361,16.8553154 11.5894119,16.8553154 C9.26028777,16.8553154 7.33647864,18.6740706 7.20582442,20.9995273 L7.20582442,21.013354 C7.2204263,21.4346747 7.25949041,21.8547914 7.32281936,22.2715813 C7.32281936,22.2715813 7.32281936,22.2811536 7.32281936,22.2843444 C7.56359877,23.8803771 8.16366043,25.400897 9.07774339,26.7312155 C9.09074056,26.7524872 9.10531731,26.7727524 9.12135059,26.7918402 C9.22901918,26.9577731 9.28628185,27.1513579 9.28620709,27.3491615 C9.28620709,28.3063928 8.16305571,28.4659313 7.47810355,28.7318289 C6.35814294,29.1572651 5.30837929,29.8815701 4.42453573,30.6856443 C4.26754133,30.8335027 4.02382965,30.8376491 3.86189645,30.6952167 C0.50953067,27.6487852 -0.739415651,22.9166543 0.672962344,18.612669 C2.08534034,14.3086837 5.89526828,11.2366521 10.4008497,10.768852 C10.5451343,10.7524706 10.6702694,10.6616468 10.7305627,10.5295442 C13.4903005,4.14052337 19.7838678,0.00342879897 26.7434468,0.00342879897 C33.7030258,0.00342879897 39.9965931,4.14052337 42.7563309,10.5295442 C42.8160471,10.6624718 42.9412901,10.754182 43.0860439,10.7709792 C48.9367873,11.3815627 53.3807173,16.313549 53.3805346,22.1960664' fill='#1999E3' id='sign'></path>
+<path d='M75.8159088,12.6567248 C75.8159088,13.7043613 75.6404164,14.6445751 75.2841137,15.449713 C74.6055431,15.3720709 73.8482667,15.3135734 73.3834778,15.3135734 C72.6751266,15.3135734 71.6955599,15.449713 71.0648509,15.7390096 C70.3277828,16.0782949 69.8427856,16.7292122 69.8427856,18.0863534 L69.8427856,27.8341587 C68.9397974,28.2712943 67.8932245,28.4457231 66.6998762,28.4457231 L66.6998762,16.6781598 C66.6998762,14.8051773 67.427372,13.8351829 69.0865729,13.1683118 C70.3862802,12.6450253 72.0444176,12.3727462 73.3409342,12.3727462 C74.1739151,12.3751419 75.0040331,12.4703896 75.8159088,12.6567248' fill='#2A333D' id='logotype'></path>
+<path d='M93.0790433,18.5990039 C93.0790433,14.7381711 90.1403433,12.370619 86.0359482,12.370619 C81.1966123,12.370619 78.0441306,15.667749 78.0441306,20.4124254 C78.0441306,25.1847552 81.2455374,28.4435959 86.4837198,28.4435959 C88.0788338,28.4331579 89.6608323,28.1545105 91.1635172,27.6193134 C91.1635172,26.5908216 91.008233,25.6697524 90.631722,24.8837591 C89.5745132,25.2326168 88.0514519,25.582538 86.6060326,25.582538 C83.6769049,25.582538 81.687991,24.1466911 81.2317107,21.5568486 L89.6340743,21.5568486 C92.0494879,21.5568486 93.0769162,20.878278 93.0769162,18.5990039 L93.0790433,18.5990039 Z M81.2583005,19.0733652 C81.7241531,16.5420203 83.6152167,15.1157456 86.021058,15.1157456 C88.1163309,15.1157456 90.0169668,16.2027349 90.0169668,17.957659 C90.0169668,18.6277209 89.736179,19.0733652 88.7076871,19.0733652 L81.2583005,19.0733652 Z' fill='#2A333D' id='logotype'></path>
+<path d='M95.3072651,20.4124254 C95.3072651,15.6783849 98.5278165,12.370619 103.746854,12.370619 C105.304763,12.3819184 106.850083,12.6507323 108.320293,13.1661846 C108.320293,14.1946764 108.163945,15.096601 107.795943,15.8719584 C106.554797,15.4580648 105.258094,15.2346559 103.95,15.2093416 C100.565656,15.2093416 98.4608104,17.2652617 98.4608104,20.4081711 C98.4608104,23.5510805 100.574164,25.5389308 103.892566,25.5389308 C105.308205,25.5389308 106.840838,25.1794373 107.898047,24.8210073 C108.256477,25.6261452 108.429842,26.5674226 108.429842,27.6150591 C106.927225,28.1505112 105.345183,28.4291663 103.750045,28.4393416 C98.521435,28.4393416 95.3008835,25.1422116 95.3008835,20.4081711' fill='#2A333D' id='logotype'></path>
+<path d='M119.778351,12.6567248 C119.778351,13.7043613 119.603922,14.6445751 119.246556,15.449713 C118.567985,15.3720709 117.810709,15.3135734 117.34592,15.3135734 C116.637569,15.3135734 115.658002,15.449713 115.027293,15.7390096 C114.290225,16.0782949 113.805228,16.7292122 113.805228,18.0863534 L113.805228,27.8341587 C112.903303,28.2712943 111.855667,28.4457231 110.662319,28.4457231 L110.662319,16.6781598 C110.662319,14.8051773 111.389814,13.8351829 113.049015,13.1683118 C114.348723,12.6450253 116.00686,12.3727462 117.303376,12.3727462 C118.135922,12.3745231 118.965678,12.4690567 119.777288,12.6545976' fill='#2A333D' id='logotype'></path>
+<path d='M125.149482,21.2845695 C125.149482,23.7191277 126.468334,25.553821 128.970962,25.553821 C129.378317,25.553821 130.397237,25.5048959 131.231092,25.164547 C132.113872,24.8061171 132.42444,24.2434778 132.42444,23.4000506 L132.42444,12.9821835 C133.326365,12.5450478 134.374001,12.370619 135.567349,12.370619 L135.567349,24.1371187 C135.567349,26.0090377 134.811137,27.0088126 133.181716,27.6469668 C131.905408,28.1521722 130.037743,28.4425324 128.690174,28.4425324 C124.577271,28.4425324 122.006573,25.7367586 122.006573,21.5366404 L122.006573,12.9821835 C122.909561,12.5450478 123.957198,12.370619 125.149482,12.370619 L125.149482,21.2845695 Z' fill='#2A333D' id='logotype'></path>
+<path d='M141.928683,7.70571187 C141.927509,8.84676159 141.001761,9.77092301 139.860711,9.7701402 C138.71966,9.76935739 137.795181,8.84392662 137.795572,7.70287636 C137.795964,6.56182611 138.721077,5.6370293 139.862127,5.6370287 C140.410645,5.6356117 140.937105,5.85288245 141.324967,6.24074447 C141.712829,6.62860649 141.9301,7.1550668 141.928683,7.70358469' fill='#2A333D' id='logotype'></path>
+<path d='M141.424541,27.8320315 C140.521553,28.2691671 139.473917,28.4435959 138.281632,28.4435959 L138.281632,12.9811199 C139.183557,12.5450478 140.231193,12.370619 141.424541,12.370619 L141.424541,27.8320315 Z' fill='#2A333D' id='logotype'></path>
+<path d='M150.08323,15.5284187 L150.08323,22.9735509 C150.08323,25.1762465 151.557366,25.5442487 154.264204,25.5442487 C154.264204,26.6078391 154.10892,27.5331626 153.720709,28.3287282 C153.345067,28.4119073 152.960978,28.450816 152.576286,28.4446595 C150.937293,28.4446595 148.45381,28.0564491 147.444463,25.8548171 C146.989246,24.8656781 146.940321,23.7276365 146.940321,22.508762 L146.940321,15.5284187 L144.156905,15.5284187 C144.156905,14.4329207 144.312189,13.4820709 144.709972,12.6567248 L146.943512,12.6567248 L146.943512,8.27792347 C147.8465,7.84078784 148.894136,7.66635903 150.086421,7.66635903 L150.086421,12.6652335 L154.364181,12.6652335 C154.364181,13.7511593 154.199325,14.7115813 153.802606,15.5369274 L150.08323,15.5284187 Z' fill='#2A333D' id='logotype'></path>
+<path d='M171.625189,18.5990039 C171.625189,14.7381711 168.686488,12.370619 164.583157,12.370619 C159.742757,12.370619 156.590276,15.667749 156.590276,20.4124254 C156.590276,25.1847552 159.791683,28.4435959 165.029865,28.4435959 C166.624988,28.4332589 168.207003,28.1546085 169.709662,27.6193134 C169.709662,26.5908216 169.554378,25.6697524 169.177867,24.8837591 C168.120658,25.2326168 166.597597,25.582538 165.152178,25.582538 C162.221986,25.582538 160.234136,24.1466911 159.77892,21.5568486 L168.181283,21.5568486 C170.595633,21.5568486 171.624125,20.878278 171.624125,18.5990039 L171.625189,18.5990039 Z M159.800191,19.0733652 C160.266044,16.5420203 162.157107,15.1157456 164.562949,15.1157456 C166.658222,15.1157456 168.558858,16.2027349 168.558858,17.957659 C168.558858,18.6277209 168.27807,19.0733652 167.249578,19.0733652 L159.800191,19.0733652 Z' fill='#2A333D' id='logotype'></path>
+<path d='M188.893641,18.5990039 C188.893641,14.7381711 185.954941,12.370619 181.851609,12.370619 C177.01121,12.370619 173.858728,15.667749 173.858728,20.4124254 C173.858728,25.1847552 177.060135,28.4435959 182.298317,28.4435959 C183.893415,28.4329763 185.475383,28.1543342 186.978115,27.6193134 C186.978115,26.5908216 186.821767,25.6697524 186.44632,24.8837591 C185.389111,25.2326168 183.86605,25.582538 182.42063,25.582538 C179.491503,25.582538 177.502589,24.1466911 177.047372,21.5568486 L185.449736,21.5568486 C187.864086,21.5568486 188.892577,20.878278 188.892577,18.5990039 L188.893641,18.5990039 Z M177.068644,19.0733652 C177.533433,16.5420203 179.42556,15.1157456 181.831401,15.1157456 C183.926674,15.1157456 185.82731,16.2027349 185.82731,17.957659 C185.82731,18.6277209 185.545459,19.0733652 184.51803,19.0733652 L177.068644,19.0733652 Z' fill='#2A333D' id='logotype'></path>
+</g>
+</g>
+</svg>
+
+</a></div>
+<ul class='nav navbar-nav hidden-sm hidden-xs'>
+<li class='dropdown navbar-workflow-menu'>
+<a aria-expanded='false' aria-haspopup='true' class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+Features
+<div class='caret'></div>
+</a>
+<ul class='dropdown-menu'>
+<div class='workflow-steps-container'>
+<div class='workflow-title'>A great hiring workflow in five steps</div>
+<ul class='nav nav-tabs' role='tablist'>
+<li>
+<a class="step step-1" href="/build-employer-brand"><div class='icon'>
+<img class='inactive' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-careers-f1c2b69f8205ca748b88d4044f08dea0faf01340a114b8affe3125cfb3e0dada.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-careers-f1c2b69f8205ca748b88d4044f08dea0faf01340a114b8affe3125cfb3e0dada.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+<img class='active' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-careers-89b65743272c221a12a96613e2efb0bf43645073f49c787fd1f0bf68d6aab80c.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-careers-89b65743272c221a12a96613e2efb0bf43645073f49c787fd1f0bf68d6aab80c.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='step-indicator'>Step 1</div>
+<h3 class='title'>Build an employer brand</h3>
+
+</a></li>
+<li class='workflow-line'>
+<div class='line'></div>
+</li>
+<li>
+<a class="step step-2" href="/post-job-online"><div class='icon'>
+<img class='inactive' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-promote-c9b9b417cb466790bfc6193befa7cbae87517b6b5437247ceb140d64225b42e7.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-promote-c9b9b417cb466790bfc6193befa7cbae87517b6b5437247ceb140d64225b42e7.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+<img class='active' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-promote-62aa89229388a03cc95262b6c4ca9d66310c3a04cdf33e64078224d71048b015.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-promote-62aa89229388a03cc95262b6c4ca9d66310c3a04cdf33e64078224d71048b015.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='step-indicator'>Step 2</div>
+<h3 class='title'>Promote job openings</h3>
+
+</a></li>
+<li class='workflow-line'>
+<div class='line'></div>
+</li>
+<li>
+<a class="step step-3" href="/sourcing-candidates"><div class='icon'>
+<img class='inactive' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-source-89d02c90ba78b615fd87adf41bb50ec879f91c1ab9340d3bfa599d466678dac6.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-source-89d02c90ba78b615fd87adf41bb50ec879f91c1ab9340d3bfa599d466678dac6.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+<img class='active' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-source-974e563bb94dfe870cf8b92dc22b62970d23a9c778f6c967a95b79f54d5bf5f6.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-source-974e563bb94dfe870cf8b92dc22b62970d23a9c778f6c967a95b79f54d5bf5f6.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='step-indicator'>Step 3</div>
+<h3 class='title'>Source candidates</h3>
+
+</a></li>
+<li class='workflow-line'>
+<div class='line'></div>
+</li>
+<li>
+<a class="step step-4" href="/applicant-tracking-system"><div class='icon'>
+<img class='inactive' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-manage-9de16bb001d93419e31d4cebb17bb69663ed0d9f0694ec72c5480294bdb499f0.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-manage-9de16bb001d93419e31d4cebb17bb69663ed0d9f0694ec72c5480294bdb499f0.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+<img class='active' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-manage-d4e37c5885a60349e855cf9955725dab0eac2b77a8f1b69d8ff194dc13278e65.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-manage-d4e37c5885a60349e855cf9955725dab0eac2b77a8f1b69d8ff194dc13278e65.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='step-indicator'>Step 4</div>
+<h3 class='title'>Track applicants</h3>
+
+</a></li>
+<li class='workflow-line'>
+<div class='line'></div>
+</li>
+<li>
+<a class="step step-5" href="/recruitment-analysis"><div class='icon'>
+<img class='inactive' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-analyze-39fe73d4ddd8a260d83a7cee9a7dd9e8ad8e3b24f78949b1d0442dc6dfc035fb.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-analyze-39fe73d4ddd8a260d83a7cee9a7dd9e8ad8e3b24f78949b1d0442dc6dfc035fb.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+<img class='active' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-analyze-9213934593684e3f63123efc0612a4a1c891e47e4a582a0ff6d9269fe9ab8962.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-analyze-9213934593684e3f63123efc0612a4a1c891e47e4a582a0ff6d9269fe9ab8962.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='step-indicator'>Step 5</div>
+<h3 class='title'>Analyze and optimize</h3>
+
+</a></li>
+</ul>
+<div class='all-features-page'>
+<a href="/features"><i class='ion-android-list'></i>
+All Features
+</a></div>
+</div>
+
+</ul>
+</li>
+<li>
+<a href="/pricing">Pricing</a>
+</li>
+<li>
+<a href="/our-customers">Customers</a>
+</li>
+</ul>
+</div>
+<div class='col-md-6 nav-right'>
+<ul class='nav navbar-nav pull-right'>
+<li class='log-in admin-not-present'>
+<a href="/admins/sign_in"><span class='btn-inner'>
+Sign in
+</span>
+</a></li>
+<li class='log-in'>
+<a href="/demo"><span class='btn-inner'>
+Get Demo
+</span>
+</a></li>
+<li class='get-started'>
+<a class="btn-get-started" href="/signup"><span class='btn-inner'>
+Sign up now
+</span>
+</a></li>
+<li class='dropdown side-menu-toggle'>
+<a aria-expanded='false' aria-haspopup='true' class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+<i class='fa fa-bars icon-open'></i>
+<i class='ion-android-close icon-close'></i>
+</a>
+<div class='side-menu-toggle-backdrop'></div>
+<ul class='dropdown-menu side-menu'>
+<div class='side-menu-container'>
+<div class='side-menu-content'>
+<nav class='navbar navbar-default' role='navigation'>
+<ul class='nav navbar-nav'>
+<li>
+<div class='get_started_button'>
+<form action='/signup/admins/new' class='signup-now'>
+<div class='form-group'>
+<label>Your work email</label>
+<input type="text" name="email" class="form-control" placeholder="john@company.com" tabindex="-1" />
+</div>
+<button type="submit" class="btn btn-primary btn-lg">Sign up now</button>
+</form>
+<div class='meta'>
+18-day FREE trial <i class='fa fa-circle'></i> Risk-free  <i class='fa fa-circle'></i> Easy setup  <i class='fa fa-circle'></i> Live support
+</div>
+</div>
+
+</li>
+<li>
+<a class="btn btn-primary btn-signup-mobile" href="/signup">Sign up now
+</a></li>
+<li>
+<a class="log-in" href="/admins/sign_in">Sign in</a>
+</li>
+</ul>
+</nav>
+<div class='side-menu-vertical-container'>
+<ul class='side-menu-vertical'>
+<li aria-multiselectable='false' class='panel-group' role='tablist'>
+<div class='panel'>
+<div class='panel-heading' role='tab'>
+<div class='panel-title'>
+<a aria-controls='features-side-menu' aria-expanded='true' class='collapsed' data-parent='#features-side-menu' data-toggle='collapse' href='#features-side-menu' role='button'>
+<div class='icon'>
+<i class='ion-android-list'></i>
+</div>
+<span class='text'>Features</span>
+</a>
+</div>
+</div>
+<div aria-labelledby='features-side-menu' class='panel-collapse collapse' id='features-side-menu' role='tabpanel'>
+<div class='panel-body'>
+<ul>
+<div class='workflow-steps-container'>
+<ul class='nav nav-tabs' role='tablist'>
+</ul>
+<li>
+<a class="step step-1" href="/build-employer-brand">Build an employer brand</a>
+</li>
+<li>
+<a class="step step-2" href="/post-job-online">Promote job openings</a>
+</li>
+<li>
+<a class="step step-3" href="/sourcing-candidates">Source candidates</a>
+</li>
+<li>
+<a class="step step-4" href="/applicant-tracking-system">Track applicants</a>
+</li>
+<li>
+<a class="step step-5" href="/recruitment-analysis">Analyze and optimize</a>
+</li>
+<li>
+<a href="/features">All Features</a>
+</li>
+</div>
+
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a href="/our-customers"><div class='icon'>
+<i class='fa fa-quote-left'></i>
+</div>
+<span class='text'>Customers</span>
+</a></li>
+<li>
+<a href="/pricing"><div class='icon'>
+<i class='ion-pricetag'></i>
+</div>
+<span class='text'>Pricing</span>
+</a></li>
+<li>
+<a target="_blank" rel="nofollow" href="http://recruitee.growsumo.com"><div class='icon'>
+<i class='fa fa-shield'></i>
+</div>
+<span class='text'>Affiliate Program</span>
+</a></li>
+<li>
+<a href="/mobile-app"><div class='icon'>
+<i class='ion-android-phone-portrait'></i>
+</div>
+<span class='text'>Android &amp; iOS Apps</span>
+</a></li>
+<ul>
+<div class='title'>About us</div>
+<li>
+<a href="https://jobs.recruitee.com/">Careers</a>
+</li>
+<li>
+<a target="_blank" rel="nofollow" href="https://recruitee.com/hiring-resources/press/">Press</a>
+</li>
+<li class='social'>
+<a target="_blank" rel="nofollow" href="https://www.facebook.com/recruitee/"><i class='fa fa-facebook'></i>
+</a></li>
+<li class='social'>
+<a target="_blank" rel="nofollow" href="https://twitter.com/recruitee"><i class='fa fa-twitter'></i>
+</a></li>
+<li class='social'>
+<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company/recruitee"><i class='fa fa-linkedin'></i>
+</a></li>
+<li>
+<a rel="nofollow" href="/terms">Terms &amp; Conditions</a>
+</li>
+<li>
+<a rel="nofollow" href="/privacy">Privacy</a>
+</li>
+</ul>
+<ul>
+<div class='title'>Support</div>
+<li>
+<a target="_blank" href="http://help.recruitee.com/help_center">FAQ</a>
+</li>
+<li>
+<a target="_blank" href="https://recruitee.com/hiring-resources/beginners-guide/">Getting Started</a>
+</li>
+<li>
+<a target="_blank" href="https://recruitee.com/hiring-resources/">Hiring Resources</a>
+</li>
+<li>
+<a target="_blank" href="https://recruitee.com/hiring-resources/job-description-templates/">Free job templates</a>
+</li>
+<li>
+<a target="_blank" href="https://blog.recruitee.com/">Blog</a>
+</li>
+</ul>
+</ul>
+</div>
+</div>
+</div>
+</ul>
+
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<div class='header-wrapper'>
+<div class='container'>
+<div class='header-content header-cta-action'>
+<h1>Build great <span>teams</span> together</h1>
+<h2>Recruitee is <span>the easiest way</span> for teams to organize <br> their hiring process - <span>and grow faster</span>.</h2>
+<div class='actions'>
+<a class="btn btn-primary btn-lg" href="/signup">Sign up now</a>
+<div class='get_started_button'>
+<form action='/signup/admins/new' class='signup-now'>
+<div class='form-group'>
+<label>Your work email</label>
+<input type="text" name="email" class="form-control" placeholder="john@company.com" tabindex="-1" />
+</div>
+<button type="submit" class="btn btn-primary btn-lg">Sign up now</button>
+</form>
+<div class='meta'>
+18-day FREE trial <i class='fa fa-circle'></i> Risk-free  <i class='fa fa-circle'></i> Easy setup  <i class='fa fa-circle'></i> Live support
+</div>
+</div>
+
+</div>
+</div>
+<div class='header-visual'>
+<div class='spinner'>
+<svg class='spinner'>
+<circle class='spinner__circle' cx='20' cy='20' r='18'></circle>
+</svg>
+
+</div>
+<div class='homepage-visual'>
+<div class='offer-previewer'>
+<div class='try-me'>
+<img src="https://d10zminp1cyta8.cloudfront.net/assets/product/try_me_blue-d288a51141e6854a25dce082c27ba5b23b6c5fc82c0bcf3b4c57743e43643aac.svg" alt="Try me blue d288a51141e6854a25dce082c27ba5b23b6c5fc82c0bcf3b4c57743e43643aac" />
+</div>
+<div class='preview-in-browser'>
+<div class='browser-toolbar'>
+<div class='dot'></div>
+<div class='dot'></div>
+<div class='dot'></div>
+</div>
+
+<div class='browser-view'>
+<div class='preview-type'></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<section class='page-video'>
+<div class='container'>
+<div class='play-video'>
+<a class='venobox active' data-autoplay='true' data-gall='productPromo' data-type='youtube' href='https://www.youtube.com/embed/eklKsI-2LOA'>
+<div class='btn btn-default'>
+<i class='ion-play'></i>
+</div>
+<span>Watch video</span>
+</a>
+<a class='venobox' data-autoplay='true' data-gall='productPromo' data-type='youtube' href='https://www.youtube.com/embed/r9uaVTwyFsA'>
+<i class='ion-play'></i>
+<span>Play video</span>
+</a>
+<a class='venobox' data-autoplay='true' data-gall='productPromo' data-type='youtube' href='https://www.youtube.com/embed/UWdSAys9YoY'>
+<i class='ion-play'></i>
+<span>Play video</span>
+</a>
+<a class='venobox' data-autoplay='true' data-gall='productPromo' data-type='youtube' href='https://www.youtube.com/embed/-Tbw0MabZhI'>
+<i class='ion-play'></i>
+<span>Play video</span>
+</a>
+<a class='venobox' data-autoplay='true' data-gall='productPromo' data-type='youtube' href='https://www.youtube.com/embed/vAbe3wSKi7k'>
+<i class='ion-play'></i>
+<span>Play video</span>
+</a>
+<a class='venobox' data-autoplay='true' data-gall='productPromo' data-type='youtube' href='https://www.youtube.com/embed/jq6Zmaim5Vg'>
+<i class='ion-play'></i>
+<span>Play video</span>
+</a>
+</div>
+</div>
+</section>
+
+<section class='clients'>
+<div class='container'>
+<div class='section-headlines'>
+<h2 class='section-headline'>Over <span>2000</span> companies worldwide</h2>
+<p class='section-subheadline'> have made over <span>40,000</span> hires with Recruitee</p>
+</div>
+<div class='section-content'>
+<div class='logos-container'>
+<div class='single-logo'>
+<img alt='recruitee partner company' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/hotjar@2x-91a3eca73e98dbe3cab60facb9255bacda8bd5adaeffa32379ffe14e57e28a0e.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/hotjar-ba4005e89f4145b7130574fa311f7ecfedfa7409bd1d46a9d6521ed55b661656.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='recruitee partner company' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/zomato@2x-4ca78e55d11444a66c8997f3dc8c65f74cdb7a9cf0f9e90369c9f8a25faea7ba.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/zomato-92fdc7a276c87dd1dd87926fa66d138ca8303682a67114d29251b395f7d1ff92.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='recruitee partner company' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/karl_lagerfeld@2x-4885cbbe8569ce99f7ea3464811eeb162aeb5b91fd24957f9539e6761e07e855.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/karl_lagerfeld-6752136706ca3dc600628b4a1692c70dc9faf7152fd078b334e2faab96054fd0.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='recruitee partner company' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/taco-bell@2x-335c4eee288a5972f8be2f49d7167f4807e44e797fcb3bc084cb7712ca7ec2b4.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/taco-bell-830689fc8fb97500fc892013835778c07283afdd6a02adf827844d12ed50d8ec.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='recruitee partner company' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/vice@2x-ee968d064300637bba11b2239d8ae5e96e930ec9183290d461b8cc79c512685d.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/vice-de22e508e283e3c3686191af91808b91d297fc993479d56c9517d5051ed7f582.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='recruitee partner company' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/scotch-and-soda@2x-b1dad83ee120a02eac6b4830449bd9bf98f14f67ddd6533b5efbc12a239f602e.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/scotch-and-soda-c07b567b914dc9977cf756252d0640e7d7da406b5cd496b40026392138ef0511.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='recruitee partner company' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/sky@2x-585d34b8c01c813220d334ece58140a2aebd4dd5557d61b0ada4dbf024beff5f.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/sky-8b6d67bb4467e25f51d152c257311cef32841571516ca061e58cda9ca30d3ee5.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='recruitee partner company' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/mtn@2x-7dd839ba279f7040994aa7951431e62c4e8011110e68155104af419c095f7290.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/mtn-d8a483d9ec09e81e502adf433bf68c8018027c5001f644beb95aa36d7c68f13a.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='recruitee partner company' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/arcadia@2x-3423e0caa71b2d306ee55cc4eadfd6e8ef133b8b1e9cfd67b69fcf68902da59c.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/arcadia-23f1a8c3b840364caaa1173454404c9a810a3df5ff4912cd558b3a58e8bb99c5.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='recruitee partner company' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/lacoste@2x-7675404fb7641bdceef5fb8faa5fcd395c97ad4affa14f3b72b3fcb91f745ec8.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/lacoste-9aeb8999b2a885816d1ea685b3cb0f051f0194bfc3096f721032e5f3c9fb0dd6.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='recruitee partner company' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/growth_tribe@2x-637287352e4c69f35e7c7a3716730b89e965399a0e85e17f0dc678e2a125b7b7.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/growth_tribe-17dc47d31512d37b635f7e6d26acb8f007f5fa4605167d165270cb5f6dfd7fa2.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='recruitee partner company' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/hudsons-bay@2x-0befd71815acb943cdc369ff2b2dfb100ed0d73049fc2c5915a540f65d01a588.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/hudsons-bay-4fc5d71e071a413fc572d4c9ffea1aa6f451c59346f8af088958005f2430049f.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+</div>
+</div>
+
+<div class='section-action'>
+<a class="btn btn-primary btn-outline" href="/our-customers">View Customers</a>
+</div>
+</div>
+</section>
+<section class='eyecatcher awards_large'>
+<div class='container'>
+<div class='section-headlines flex-center'>
+<h2 class='section-headline'>
+Award-winning
+</h2>
+<span>
+<img alt='hand emoji' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/trophy@2x-f8648ab32f655a0c1d5ed6c1f5bff24064750708d33b222fb8d80ce329d74325.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/trophy-9f509e7d54a128bef92a0c6c6d9bcdb235a421596ecfc9d860b448ee7d7e505c.png' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</span>
+<h2 class='section-headline'>
+recruitment software
+</h2>
+</div>
+<div class='section-content'>
+<div class='row'>
+<div class='single-award custom-capterra'>
+<a href='https://www.capterra.com/p/140650/Recruitee/' target='_blank'>
+<img alt='Capterra Best Ease of Use Awards Recruitee' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/capterra-beou-2018@2x-06fabb3e3c67c74c418afbc30cdc2557a4884976f29deedf3ed00cfb94f11732.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/capterra-beou-2018-4a24d0f894cb328e080ecb75f0174aa257055d165e37ca96016c891eb0f49172.png' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</a>
+</div>
+<div class='single-award custom-capterra'>
+<a href='https://www.capterra.com/p/140650/Recruitee/' target='_blank'>
+<img alt='Capterra Best Value Recruitee' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/capterra-bv-2018@2x-20bee20a29c3d027fcc532e12a8920516aa86997ca62faa7f292ed3303015d67.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/capterra-bv-2018-20bee20a29c3d027fcc532e12a8920516aa86997ca62faa7f292ed3303015d67.png' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</a>
+</div>
+<div class='single-award'>
+<a href='https://www.capterra.com/applicant-tracking-software/#user-friendly' target='_blank'>
+<img alt='Capterra User Friendly Awards Recruitee' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/capterra-ats-uf-2017@2x-91dad8072741478ced51d8f88b7e7ea05543b6778cdb4a40762968d63a6df7e1.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/capterra-ats-uf-2017-c421f4ff1aca3f22fb81d40007b2681e56b8c022033a214005ef95807ab8aa91.png' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</a>
+</div>
+<div class='single-award'>
+<a href='https://www.capterra.com/applicant-tracking-software/#affordable' target='_blank'>
+<img alt='Capterra Affordable Awards Recruitee' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/capterra-ats-af-2018@2x-3da43322386b7b82104e76f38e2392d48f9c035a0208bebee27a69b6e1d6a26b.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/capterra-ats-af-2018-a57e8690638394a21382787c5ef4e77a7a853ef1885e01c946531ba04c27bd18.png' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='single-award'>
+<a href='https://www.g2crowd.com/products/recruitee/reviews' target='_blank'>
+<img alt='Crowd Users Love Us Awards Recruitee' class='medium' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/g2-crowd-ulu-2018@2x-bef32afb0013dbfbc2263ed5fcf9ad548cfa7c1cb8316d78d2a2172259b2b8ba.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/g2-crowd-ulu-2018-df65694c81bdd69005a1a36e8b4f596fcc7ba90368793535e430d34905571b74.png' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</a>
+</div>
+<div class='single-award'>
+<a href='http://www.onrec.com/news/news-archive/the-onrec-online-recruitment-awards-2018-winners-announced' target='_blank'>
+<img alt='OnRec Awards Recruitee' class='large' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/onrec-winner-2018@2x-d9222ebd1557b25874448afc51260823209bdc156095a0655db094292e2423ed.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/onrec-winner-2018-b4d33c238f733d72e8359ab5c4f90e6b52534fb46e63a6d2edef3c450bcd6a54.png' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</a>
+</div>
+<div class='single-award'>
+<a href='https://www.cv-magazine.com/2018-0recruitment-top-50' target='_blank'>
+<img alt='CV Magazine Awards Recruitee' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/cv-magazine_top-50_badge@2x-620dd68c472ea5aeaa5fdbf94cf3f17f9450cc9f8e4bc00400a2fad8e52b70fc.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/cv-magazine_top-50_badge-82800ab385abf7277c53d426970b09b93ad2ee8f0d61b6e02904559d9298174f.png' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</a>
+</div>
+<div class='single-award'>
+<a href='https://www.g2crowd.com/products/recruitee/reviews' target='_blank'>
+<img alt='Crowd Heigh Performer Awards Recruitee' class='medium' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/g2-crowd-hp-2017@2x-0dc64d8135dd95049b2c4f186edf2138d3e173575de5820fabe4cacec1b6ae7c.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/awards/g2-crowd-hp-2017-e5dbf6cfc85dc348de5a9718614a372bfc1f2b31a1f3ed06854816270cf29bf8.png' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class='perfect-workflow'>
+<div class='container'>
+<div class='section-headlines'>
+<h2 class='section-headline'>
+Recruitment software
+for your whole team
+</h2>
+<p class='section-subheadline'>Teams grow best when hiring happens in collaboration. Empower your <br> team at every stage of your hiring process and build great teams together.</p>
+<div class='workflow-menu-desktop'>
+<div class='workflow-steps-container'>
+<ul class='nav nav-tabs' role='tablist'>
+<li class='new-style clickable first active'>
+<a class='step step-1' data-toggle='tab' href='#workflow-step-1'>
+<div class='counter'>
+<div class='counter-dot'>
+<span>1</span>
+</div>
+</div>
+<h3 class='title'>Build an employer brand</h3>
+</a>
+</li>
+<li class='new-style clickable'>
+<a class='step step-2' data-toggle='tab' href='#workflow-step-2'>
+<div class='counter'>
+<div class='counter-dot'>
+<span>2</span>
+</div>
+</div>
+<h3 class='title'>Promote job openings</h3>
+</a>
+</li>
+<li class='new-style clickable'>
+<a class='step step-3' data-toggle='tab' href='#workflow-step-3'>
+<div class='counter'>
+<div class='counter-dot'>
+<span>3</span>
+</div>
+</div>
+<h3 class='title'>Source candidates</h3>
+</a>
+</li>
+<li class='new-style clickable'>
+<a class='step step-4' data-toggle='tab' href='#workflow-step-4'>
+<div class='counter'>
+<div class='counter-dot'>
+<span>4</span>
+</div>
+</div>
+<h3 class='title'>Track applicants</h3>
+</a>
+</li>
+<li class='new-style clickable last'>
+<a class='step step-5' data-toggle='tab' href='#workflow-step-5'>
+<div class='counter'>
+<div class='counter-dot'>
+<span>5</span>
+</div>
+</div>
+<h3 class='title'>Analyze and optimize</h3>
+</a>
+</li>
+</ul>
+</div>
+
+<div class='navigation-arrows hidden-xs hidden-sm'>
+<a class='btn btn-previous'>
+<i class='ion-ios-arrow-back'></i>
+</a>
+<a class='btn btn-next'>
+<i class='ion-ios-arrow-forward'></i>
+</a>
+</div>
+</div>
+<div class='workflow-menu-mobile'>
+<div class='workflow-steps-container'>
+<div class='workflow-title'>A great hiring workflow in five steps</div>
+<ul class='nav nav-tabs' role='tablist'>
+<li>
+<a class="step step-1" href="/build-employer-brand"><div class='icon'>
+<img class='inactive' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-careers-f1c2b69f8205ca748b88d4044f08dea0faf01340a114b8affe3125cfb3e0dada.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-careers-f1c2b69f8205ca748b88d4044f08dea0faf01340a114b8affe3125cfb3e0dada.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+<img class='active' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-careers-89b65743272c221a12a96613e2efb0bf43645073f49c787fd1f0bf68d6aab80c.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-careers-89b65743272c221a12a96613e2efb0bf43645073f49c787fd1f0bf68d6aab80c.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='step-indicator'>Step 1</div>
+<h3 class='title'>Build an employer brand</h3>
+
+</a></li>
+<li class='workflow-line'>
+<div class='line'></div>
+</li>
+<li>
+<a class="step step-2" href="/post-job-online"><div class='icon'>
+<img class='inactive' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-promote-c9b9b417cb466790bfc6193befa7cbae87517b6b5437247ceb140d64225b42e7.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-promote-c9b9b417cb466790bfc6193befa7cbae87517b6b5437247ceb140d64225b42e7.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+<img class='active' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-promote-62aa89229388a03cc95262b6c4ca9d66310c3a04cdf33e64078224d71048b015.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-promote-62aa89229388a03cc95262b6c4ca9d66310c3a04cdf33e64078224d71048b015.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='step-indicator'>Step 2</div>
+<h3 class='title'>Promote job openings</h3>
+
+</a></li>
+<li class='workflow-line'>
+<div class='line'></div>
+</li>
+<li>
+<a class="step step-3" href="/sourcing-candidates"><div class='icon'>
+<img class='inactive' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-source-89d02c90ba78b615fd87adf41bb50ec879f91c1ab9340d3bfa599d466678dac6.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-source-89d02c90ba78b615fd87adf41bb50ec879f91c1ab9340d3bfa599d466678dac6.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+<img class='active' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-source-974e563bb94dfe870cf8b92dc22b62970d23a9c778f6c967a95b79f54d5bf5f6.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-source-974e563bb94dfe870cf8b92dc22b62970d23a9c778f6c967a95b79f54d5bf5f6.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='step-indicator'>Step 3</div>
+<h3 class='title'>Source candidates</h3>
+
+</a></li>
+<li class='workflow-line'>
+<div class='line'></div>
+</li>
+<li>
+<a class="step step-4" href="/applicant-tracking-system"><div class='icon'>
+<img class='inactive' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-manage-9de16bb001d93419e31d4cebb17bb69663ed0d9f0694ec72c5480294bdb499f0.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-manage-9de16bb001d93419e31d4cebb17bb69663ed0d9f0694ec72c5480294bdb499f0.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+<img class='active' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-manage-d4e37c5885a60349e855cf9955725dab0eac2b77a8f1b69d8ff194dc13278e65.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-manage-d4e37c5885a60349e855cf9955725dab0eac2b77a8f1b69d8ff194dc13278e65.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='step-indicator'>Step 4</div>
+<h3 class='title'>Track applicants</h3>
+
+</a></li>
+<li class='workflow-line'>
+<div class='line'></div>
+</li>
+<li>
+<a class="step step-5" href="/recruitment-analysis"><div class='icon'>
+<img class='inactive' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-analyze-39fe73d4ddd8a260d83a7cee9a7dd9e8ad8e3b24f78949b1d0442dc6dfc035fb.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/icon-analyze-39fe73d4ddd8a260d83a7cee9a7dd9e8ad8e3b24f78949b1d0442dc6dfc035fb.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+<img class='active' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-analyze-9213934593684e3f63123efc0612a4a1c891e47e4a582a0ff6d9269fe9ab8962.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/workflow/a_icon-analyze-9213934593684e3f63123efc0612a4a1c891e47e4a582a0ff6d9269fe9ab8962.svg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='step-indicator'>Step 5</div>
+<h3 class='title'>Analyze and optimize</h3>
+
+</a></li>
+</ul>
+<div class='all-features-page'>
+<a href="/features"><i class='ion-android-list'></i>
+All Features
+</a></div>
+</div>
+
+</div>
+</div>
+<div class='tab-content section-content section-content-visuals'>
+<div class='tab-pane in active' id='workflow-step-1'>
+<div class='tab-pane-content'>
+<div class='descriptions-container'>
+<div class='description'>
+<h4>Beautiful Careers Sites and job pages</h4>
+<div class='hint-line wow slideInLeft' data-wow-delay='0s' data-wow-duration='2s' style='width: 120%'></div>
+<p><span>Attract the right candidates</span> with your employer brand. The Careers Site editor keeps everything mobile-optimized and integrated with your own website. Any team member can style and maintain a perfectly employer branded Careers Site.</p>
+</div>
+<div class='section-action'>
+<a class="btn btn-primary btn-outline" href="/build-employer-brand">More about Careers Sites
+<i class='fa fa-long-arrow-right'></i>
+</a></div>
+</div>
+<div class='visual-container'>
+<div class='preview-in-browser'>
+<div class='browser-toolbar'>
+<div class='dot'></div>
+<div class='dot'></div>
+<div class='dot'></div>
+</div>
+
+<div class='browser-view'>
+<video autobuffer='' class='hidden-sm hidden-xs' data-delayed-loop-timeout='500' data-poster='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/careers-short-922b336e22823aeaed4547baffd5ed951b563588d133ee2b3c9547c155207b58.jpg' width='650'>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/careers-short@2x-fa82a93499daec5155db3c83d871de74fb867576412062d579b9ca1a748dbcb1.mp4' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/careers-short-f740241cea50c1050350ab6f47f63a6323b88abeeff0e7a146b1e9ac1e87ddb4.mp4' type='video/mp4'>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/careers-short@2x-cb6a5672343ea5aaf92d06f22885b76c6726b2faf17db4c036c3cea13f970846.webm' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/careers-short-a420b7bc7ebcd7c37c9b02ecee63679eef59dc8aa17e0410a9ae007d49daaec2.webm' type='video/webm'>
+</video>
+<div class='hidden-lg hidden-md'>
+<img alt='app preview' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/careers-short@2x-2f1c98f63a5ee16651112d48a3cff11528682664be7b753bff5d310c0f5e26f9.jpg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/careers-short-922b336e22823aeaed4547baffd5ed951b563588d133ee2b3c9547c155207b58.jpg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='workflow-step-2'>
+<div class='tab-pane-content'>
+<div class='descriptions-container'>
+<div class='description'>
+<h4>Save money on job ads</h4>
+<p>Save money on your job ads. <span>Make use of 20+ free job boards, 400+ premium job boards</span> with discounts up to 30%, and efficient social media campaigns in Recruitee. Choose where to reach the candidates you need at the price you want.</p>
+</div>
+<div class='section-action'>
+<a class="btn btn-primary btn-outline" href="/post-job-online">More about job posting
+<i class='fa fa-long-arrow-right'></i>
+</a></div>
+</div>
+<div class='visual-container'>
+<div class='preview-in-browser'>
+<div class='browser-toolbar'>
+<div class='dot'></div>
+<div class='dot'></div>
+<div class='dot'></div>
+</div>
+
+<div class='browser-view'>
+<video autobuffer='' class='hidden-sm hidden-xs' data-delayed-loop-timeout='500' data-poster='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/workflow_step_2/promote-f768a0a0cd96bd469bab5d23ffef9583b6ecad9482e3bfe0a69dcac6b2206c3e.jpg' width='650'>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/workflow_step_2/promote@2x-5a1d41bccad66349db0aa3208a30bf7b561dd2f92f595d2ac524b5774ab7af0d.mp4' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/workflow_step_2/promote-26e42d9f64088ea1eb5ee8494dcf614241c063cf5eceff7c31153de768dce2d0.mp4' type='video/mp4'>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/workflow_step_2/promote@2x-5eac9ee0b184078ac9388a43b459b71a5dbbd6f20253a46f85bdaef66031bc18.webm' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/workflow_step_2/promote-d716ba078993ef2f637883f9aa7c38fbff4bb388ed2e0cd384cebfc35a0f5eab.webm' type='video/webm'>
+</video>
+<div class='hidden-lg hidden-md'>
+<img alt='app preview' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/workflow_step_2/promote@2x-82e237c107c4293c2652fc48c239e135f0e37b228de585a4f6ccd0c9c52d0775.jpg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/workflow_step_2/promote-f768a0a0cd96bd469bab5d23ffef9583b6ecad9482e3bfe0a69dcac6b2206c3e.jpg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='workflow-step-3'>
+<div class='tab-pane-content'>
+<div class='descriptions-container'>
+<div class='description'>
+<h4>Source like the best headhunter</h4>
+<p><span>Import passive candidates from any website</span> All you need is the Recruitee's sourcing extension. Let your team's experts find the next experts for your team.</p>
+</div>
+<div class='section-action'>
+<a class="btn btn-primary btn-outline" href="/sourcing-candidates">More about sourcing
+<i class='fa fa-long-arrow-right'></i>
+</a></div>
+</div>
+<div class='visual-container'>
+<div class='preview-in-browser'>
+<div class='browser-toolbar'>
+<div class='dot'></div>
+<div class='dot'></div>
+<div class='dot'></div>
+</div>
+
+<div class='browser-view'>
+<video autobuffer='' class='hidden-sm hidden-xs' data-delayed-loop-timeout='500' data-poster='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/sourcing-2-d43d6a9f73f50aa8620d17ade4dab0941bd0bd3b1bb510cc7a4a6782d874f463.jpg' width='650'>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/sourcing-2@2x-27341c08c8127a1b25ea4d723807e8a0cddee4592ba3df374e37986131f14d68.mp4' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/sourcing-2-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.mp4' type='video/mp4'>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/sourcing-2@2x-a8269d97f4433f0b41ec542ccb4a817c153b4e84817d57c55a760e8116dff5a2.webm' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/sourcing-2-fc065e4a7be7c668bf36b509a04c4a29c2fd02c6136d2a347a9219be6eb860f7.webm' type='video/webm'>
+</video>
+<div class='hidden-lg hidden-md'>
+<img alt='app preview' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/sourcing-2@2x-32aab4507debb6df7303d9ff1dd2c7427d9685ba3b0793bd7bceae74502f2be6.jpg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/sourcing-2-d43d6a9f73f50aa8620d17ade4dab0941bd0bd3b1bb510cc7a4a6782d874f463.jpg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='workflow-step-4'>
+<div class='tab-pane-content'>
+<div class='descriptions-container'>
+<div class='description'>
+<h4>All information in one place</h4>
+<p>Kill the email and meeting chaos. <span>Recruitee has all candidates, all candidate data, and all to-do's</span> in one place. Every team member is now on the same page and up-to-date.</p>
+</div>
+<div class='section-action'>
+<a class="btn btn-primary btn-outline" href="/applicant-tracking-system">More about candidate management
+<i class='fa fa-long-arrow-right'></i>
+</a></div>
+</div>
+<div class='visual-container'>
+<div class='preview-in-browser'>
+<div class='browser-toolbar'>
+<div class='dot'></div>
+<div class='dot'></div>
+<div class='dot'></div>
+</div>
+
+<div class='browser-view'>
+<video autobuffer='' class='hidden-sm hidden-xs' data-delayed-loop-timeout='500' data-poster='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/pipeline-39936e2dffb777909a0e6caa00086a9c0ade97f8da3e928114791fc1384e8d9f.jpg' width='650'>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/pipeline@2x-5d4cde0f1a50d987a0aa525bdc462ca77b34accd2a85794e06d50c1471aa1786.mp4' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/pipeline-1f1fb605dfcdc9ab247137cee041220308cb8f449b8727a843ebe8ed9852913e.mp4' type='video/mp4'>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/pipeline@2x-065dce254e0d268046fb010c6a3c3f5fdc74ec5fadb28240e025d7d36dceb0ed.webm' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/pipeline-ba9352be3a40405f2ca9e24d499c374ef511f55dc9ac1ce58dba48f75c56730f.webm' type='video/webm'>
+</video>
+<div class='hidden-lg hidden-md'>
+<img alt='app preview' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/workflow_step_3/powersearch@2x-85ce115964f15d3696d72bf81c981d373733f7bd679319d366dff67eb107c11a.jpg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/workflow_step_3/powersearch-f73564f62c3e43d0cd01cc4fecb0346d65aae7ac3445a7593433adf6b7567f8e.jpg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='workflow-step-5'>
+<div class='tab-pane-content'>
+<div class='descriptions-container'>
+<div class='description'>
+<h4>Get the best ROI</h4>
+<p>Make data-driven decisions when it comes to your hiring. Learn which sources bring in the best candidates, how well your Careers Site converts, and how your team can save more time. <span>Let's get results together</span>.</p>
+</div>
+<div class='section-action'>
+<a class="btn btn-primary btn-outline" href="/recruitment-analysis">More about reports
+<i class='fa fa-long-arrow-right'></i>
+</a></div>
+</div>
+<div class='visual-container'>
+<div class='preview-in-browser'>
+<div class='browser-toolbar'>
+<div class='dot'></div>
+<div class='dot'></div>
+<div class='dot'></div>
+</div>
+
+<div class='browser-view'>
+<video autobuffer='' class='hidden-sm hidden-xs' data-delayed-loop-timeout='500' data-poster='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/reports-short-f48e4df07cc79c117309050162ca0a7568700afbd7c8551ca20b47d2848dbbf7.jpg' width='650'>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/reports-short@2x-5eb14a93e548cbea5be9f19dfca43e644ae6e6fb3c07152c04441b3d020f33d9.mp4' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/reports-short-d3161752d5aa636727e1e23a219e47038d23dfde1094f441e053586a53197a59.mp4' type='video/mp4'>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/reports-short@2x-60bfa0420d5c40dac961c3047ce33e70f678c9c8eb12cda7426cfbb6885acf24.webm' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/reports-short-497913edd0462615ae140a39aa79cbd8b09aeae781a9a5e2ef197f398e93dc54.webm' type='video/webm'>
+</video>
+<div class='hidden-lg hidden-md'>
+<img alt='app preview' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/reports-short@2x-8a15d14c7f934ade3d460de6281b5a9e11a2d4a81e0af9c5f3bf3d0e5a421b5e.jpg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/reports-short-f48e4df07cc79c117309050162ca0a7568700afbd7c8551ca20b47d2848dbbf7.jpg' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class='mobile-app'>
+<div class='container'>
+<div class='section-headlines'>
+<h2 class='section-headline'>
+Recruitment on the go
+</h2>
+<p class='section-subheadline'>
+Real-time updates and 24/7 connectivity with candidates. An unfair advantage to close the top talent before anyone else.
+</p>
+</div>
+<div class='section-content'>
+<div class='items items-left'>
+<div class='item'>
+<div class='icon'>
+<i class='ion ion-android-cloud-outline'></i>
+</div>
+<div class='title'>
+Connected
+</div>
+<div class='items'>
+Stay in touch with your candidates and recruiting team 24/7.
+</div>
+</div>
+<div class='item'>
+<div class='icon'>
+<i class='ion ion-android-globe'></i>
+</div>
+<div class='title'>
+Up-to-date
+</div>
+<div class='items'>
+Receive push notifications of the candidates and job openings you follow. Take action no matter where you are.
+</div>
+</div>
+</div>
+<div class='mobile-app'>
+<img alt='app preview' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/mobile-app-v2@2x-bcaf31858d5a52ad6b2344e7960d9e3398ad58828fdeee55ffbb513fe24da72d.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/mobile-app-v2-a310d825ed5d63b3bf7841c9a2dde1e6ad9262cecfb02a1330efe7970fe76efc.png' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' width='429'>
+</div>
+<div class='items items-right'>
+<div class='item'>
+<div class='icon'>
+<i class='ion ion-android-sync'></i>
+</div>
+<div class='title'>
+Flexible
+</div>
+<div class='items'>
+Have the entire candidate database with you and access it from everywhere.
+</div>
+</div>
+<div class='item'>
+<div class='icon'>
+<i class='ion ion-ios-bolt'></i>
+</div>
+<div class='title'>
+Powerful
+</div>
+<div class='items'>
+Email, evaluations, and more - all features you need from the Recruitee web app to work on candidates.
+</div>
+</div>
+</div>
+</div>
+<div class='meta-buttons'>
+<a target="_blank" class="btn btn-default" href="https://itunes.apple.com/us/app/recruitee-recruiting-software/id1231934627"><img src="https://d10zminp1cyta8.cloudfront.net/assets/product/icon-ios-2bcbc7c42ff4eacfd2d215b4049c76c5c2897a29b89b075fb3b3f26c07997fe0.svg" alt="Icon ios 2bcbc7c42ff4eacfd2d215b4049c76c5c2897a29b89b075fb3b3f26c07997fe0" />
+Download iOS
+</a><a target="_blank" class="btn btn-default" href="https://play.google.com/store/apps/details?id=com.recruitee.app"><img src="https://d10zminp1cyta8.cloudfront.net/assets/product/icon-google-play-b90a8ee5a869a9e4f8f412ed05982c61797cfa6d5918f729e104425ff725c3b1.png" alt="Icon google play b90a8ee5a869a9e4f8f412ed05982c61797cfa6d5918f729e104425ff725c3b1" />
+Download Android
+</a></div>
+</div>
+</section>
+<section class='quotes-rotator' id='quotes-rotator'>
+<div class='rotator-bg-container'>
+<div class='bg-item bg-item-hotjar active'></div>
+<div class='bg-item bg-item-rockstart'></div>
+<div class='bg-item bg-item-tiqets'></div>
+<div class='bg-item bg-item-leanbox'></div>
+</div>
+<div class='container'>
+<div class='tab-content section-content'>
+<div class='tab-pane in active' id='quote-1'>
+<div class='tab-pane-content'>
+<div class='quote-company'>
+<img src="https://d10zminp1cyta8.cloudfront.net/assets/product/quotes/hotjar-223b20d8921c34f7258ac54a503b9838e1c491e4b30602b53debb9be12a38944.png" alt="Hotjar 223b20d8921c34f7258ac54a503b9838e1c491e4b30602b53debb9be12a38944" />
+</div>
+<div class='quote-single'>We’re crazy and obsessed with our hiring process, and Recruitee caters exactly to what we need - <span>optimize the shortest way to the best candidates</span>.</div>
+<div class='quote-meta'>
+<span class='quote-author-image'>
+<img alt='client company quote' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</span>
+<div class='block'>
+<span class='quote-author'>
+David Darmanin
+</span>
+<span class='quote-author-company'>
+CEO of Hotjar
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='tab-pane in' id='quote-2'>
+<div class='tab-pane-content'>
+<div class='quote-company'>
+<img src="https://d10zminp1cyta8.cloudfront.net/assets/product/quotes/rockstart-1e9e36031979cd5820ba67103d1f5d12032c2808cfb253c70abf74df412750e2.png" alt="Rockstart 1e9e36031979cd5820ba67103d1f5d12032c2808cfb253c70abf74df412750e2" />
+</div>
+<div class='quote-single'>With Rockstart as an avid user, I love to see <span>over 60 fast-growing startups thrive</span> when hiring through Recruitee.</div>
+<div class='quote-meta'>
+<span class='quote-author-image'>
+<img alt='client company quote' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</span>
+<div class='block'>
+<span class='quote-author'>
+Oscar Kneppers
+</span>
+<span class='quote-author-company'>
+Rockstart
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='tab-pane in' id='quote-3'>
+<div class='tab-pane-content'>
+<div class='quote-company'>
+<img src="https://d10zminp1cyta8.cloudfront.net/assets/product/quotes/tiqets-5563a4810138615da301b9e37f121d80992fd8eb4d827e966dc336f43c88c4c3.png" alt="Tiqets 5563a4810138615da301b9e37f121d80992fd8eb4d827e966dc336f43c88c4c3" />
+</div>
+<div class='quote-single'>Recruitee <span>powers our team</span> to be the fastest-growing startup in the Netherlands.</div>
+<div class='quote-meta'>
+<span class='quote-author-image'>
+<img alt='client company quote' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</span>
+<div class='block'>
+<span class='quote-author'>
+Stephanie de Booij
+</span>
+<span class='quote-author-company'>
+Tiqets
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='tab-pane in' id='quote-4'>
+<div class='tab-pane-content'>
+<div class='quote-company'>
+<img src="https://d10zminp1cyta8.cloudfront.net/assets/product/quotes/leanbox-8d7eaba2c8e7442db459f7ed875c80caa652d8e188e2c8e44803aeb409961cab.png" alt="Leanbox 8d7eaba2c8e7442db459f7ed875c80caa652d8e188e2c8e44803aeb409961cab" />
+</div>
+<div class='quote-single'><span>Shockingly powerful</span> platform that clocks in at a fraction of the cost of the comparable alternatives.</div>
+<div class='quote-meta'>
+<span class='quote-author-image'>
+<img alt='client company quote' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</span>
+<div class='block'>
+<span class='quote-author'>
+Shea Coakley
+</span>
+<span class='quote-author-company'>
+LeanBox
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='bottom-actions'>
+<ul class='nav nav-tabs section-tabs' role='tablist'>
+<li class='active'>
+<a class='quote-btn' data-selector='hotjar' data-toggle='tab' href='#quote-1'>
+<div class='dot'></div>
+</a>
+</li>
+<li>
+<a class='quote-btn' data-selector='rockstart' data-toggle='tab' href='#quote-2'>
+<div class='dot'></div>
+</a>
+</li>
+<li>
+<a class='quote-btn' data-selector='tiqets' data-toggle='tab' href='#quote-3'>
+<div class='dot'></div>
+</a>
+</li>
+<li>
+<a class='quote-btn' data-selector='leanbox' data-toggle='tab' href='#quote-4'>
+<div class='dot'></div>
+</a>
+</li>
+</ul>
+<a class="btn btn-outline" href="/our-customers"><span>More customer quotes</span>
+</a></div>
+</div>
+</section>
+<section class='get-started-subpages'>
+<div class='container'>
+<div class='section-headlines'>
+<div class='section-headline'>
+Let's build great
+<span>
+<img alt='hand emoji' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/text/strong_hand@2x-68b6f1dc2f4281c5eae853b3186314da2f5a73b2992e1424efe56a2a36ed7eec.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/text/strong_hand-4a367a793f70c4ba4d70a2f8a1df04e4d6ddaf61e520281938ed8217e160bcc0.png' height='36px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</span>
+teams together
+</div>
+<p class='section-subheadline'>Start your free trial today.</p>
+</div>
+<div class='section-content'>
+<div class='section-content'>
+<div class='get-started-container'>
+<a class="btn btn-lg btn-primary" href="/signup">Start free trial
+</a><span>
+or
+</span>
+<a class="btn btn-lg btn-outline" href="/demo">Schedule a demo
+</a></div>
+<img class='separator' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/separator-glow-0d75338b5b16ef16d80d2235064657d26f0ebdfb558c3fb19425073c282c0065.svg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/separator-glow-0d75338b5b16ef16d80d2235064657d26f0ebdfb558c3fb19425073c282c0065.svg' height='28px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+
+</div>
+</div>
+</div>
+</section>
+<section class='clients small'>
+<div class='container'>
+<div class='section-content'>
+<h4>Trusted by great teams</h4>
+<div class='logos-container'>
+<div class='single-logo'>
+<img alt='company trusted recruitee' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/hotjar@2x-91a3eca73e98dbe3cab60facb9255bacda8bd5adaeffa32379ffe14e57e28a0e.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/hotjar-ba4005e89f4145b7130574fa311f7ecfedfa7409bd1d46a9d6521ed55b661656.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='company trusted recruitee' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/lacoste@2x-7675404fb7641bdceef5fb8faa5fcd395c97ad4affa14f3b72b3fcb91f745ec8.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/lacoste-9aeb8999b2a885816d1ea685b3cb0f051f0194bfc3096f721032e5f3c9fb0dd6.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='company trusted recruitee' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/sky@2x-585d34b8c01c813220d334ece58140a2aebd4dd5557d61b0ada4dbf024beff5f.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/sky-8b6d67bb4467e25f51d152c257311cef32841571516ca061e58cda9ca30d3ee5.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='company trusted recruitee' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/taco-bell@2x-335c4eee288a5972f8be2f49d7167f4807e44e797fcb3bc084cb7712ca7ec2b4.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/taco-bell-830689fc8fb97500fc892013835778c07283afdd6a02adf827844d12ed50d8ec.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='company trusted recruitee' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/mtn@2x-7dd839ba279f7040994aa7951431e62c4e8011110e68155104af419c095f7290.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/mtn-d8a483d9ec09e81e502adf433bf68c8018027c5001f644beb95aa36d7c68f13a.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+<div class='single-logo'>
+<img alt='company trusted recruitee' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/vice@2x-ee968d064300637bba11b2239d8ae5e96e930ec9183290d461b8cc79c512685d.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/logos/vice-de22e508e283e3c3686191af91808b91d297fc993479d56c9517d5051ed7f582.png' height='80px' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<div class='clear'></div>
+<footer>
+<div class='footer-logos-container hidden-xs'>
+<div class='container'>
+<ul class='footer-logos'>
+<li class='title'>As seen on</li>
+<li>
+<img alt='recruitee partner logo companies' data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/footer_logos-637d44a2bce2af23f775b976c0e511fe4c370fe5904f689c0c6851737fbbd6d3.png' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/footer_logos-637d44a2bce2af23f775b976c0e511fe4c370fe5904f689c0c6851737fbbd6d3.png' src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='>
+</li>
+</ul>
+</div>
+</div>
+<div class='footer-menu-container'>
+<div class='container'>
+<div class='row'>
+<div class='col-lg-5 col-md-6 col-sm-12 menu-wrapper-left hidden-xs'>
+<ul class='menu-column col-sm-4'>
+<li class='title'>Product</li>
+<li>
+<a href="/features">All Features</a>
+</li>
+<li>
+<a href="/our-customers">Customers</a>
+</li>
+<li>
+<a href="/gdpr-recruitment">GDPR</a>
+</li>
+<li>
+<a href="/pricing">Pricing</a>
+</li>
+<li>
+<a target="_blank" rel="nofollow" href="http://recruitee.growsumo.com">Affiliate Program</a>
+</li>
+<li>
+<a href="/mobile-app">Android &amp; iOS Apps</a>
+</li>
+</ul>
+<ul class='menu-column col-sm-4 hidden-xs'>
+<li class='title'>About us</li>
+<li>
+<a target="_blank" href="https://jobs.recruitee.com/">Careers</a>
+</li>
+<li>
+<a target="_blank" rel="nofollow" href="https://recruitee.com/hiring-resources/press/">Press</a>
+</li>
+<li class='socials'>
+<a target="_blank" rel="nofollow" href="https://www.facebook.com/recruitee/"><i class='fa fa-facebook'></i>
+</a><a target="_blank" rel="nofollow" href="https://twitter.com/recruitee"><i class='fa fa-twitter'></i>
+</a><a target="_blank" rel="nofollow" href="https://www.linkedin.com/company/recruitee"><i class='fa fa-linkedin'></i>
+</a></li>
+<li>
+<a rel="nofollow" href="/terms">Terms &amp; Conditions</a>
+</li>
+<li>
+<a rel="nofollow" href="/privacy">Privacy</a>
+</li>
+</ul>
+<ul class='menu-column col-sm-4 hidden-xs'>
+<li class='title'>Support</li>
+<li>
+<a target="_blank" href="http://help.recruitee.com/help_center">FAQ</a>
+</li>
+<li>
+<a target="_blank" href="https://recruitee.com/hiring-resources/beginners-guide/">Getting Started</a>
+</li>
+<li>
+<a target="_blank" href="https://recruitee.com/hiring-resources/">Hiring Resources</a>
+</li>
+<li>
+<a target="_blank" href="https://recruitee.com/hiring-resources/job-description-templates/">Free job templates</a>
+</li>
+<li>
+<a target="_blank" href="https://blog.recruitee.com/">Blog</a>
+</li>
+</ul>
+</div>
+<div class='col-lg-2 col-md-6 col-sm-12 menu-wrapper-center hidden-md hidden-sm'>
+<a href="/"><img src="https://d10zminp1cyta8.cloudfront.net/assets/product/footer_recruitee_logo-8bf66e954a159956f59ef821a575f69977d11c8aa2b5c8899dfd9d7580114342.svg" alt="Footer recruitee logo 8bf66e954a159956f59ef821a575f69977d11c8aa2b5c8899dfd9d7580114342" />
+</a></div>
+<div class='col-lg-5 col-md-6 col-sm-12 menu-wrapper-right'>
+<ul class='menu-column col-sm-5 col-md-6 col-xs-12'>
+<li class='title hidden-xs'>Sales</li>
+<li>
+<a href="mailto:sales@recruitee.com">sales@recruitee.com</a>
+</li>
+<li class='cta'>
+<a href="/signup"><div class='btn btn-primary btn-sm no-wrap'>
+Free 18-day trial
+</div>
+</a></li>
+<li class='cta'>
+<a href="/demo">Schedule a demo</a>
+</li>
+<li>
+US: +1 888-272-3709
+</li>
+<li>
+EU: +31 85 888 0226
+</li>
+</ul>
+<ul class='menu-column col-sm-7 col-md-6 hidden-xs'>
+<li class='title'>Product Updates</li>
+<li>
+<a target="_blank" href="https://blog.recruitee.com/">Find out what&#39;s new in Recruitee</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='footer-meta-container'>
+<div class='container'>
+<div class='copyrights pull-left'>
+© 2018 Recruitee.com
+</div>
+<div class='language-switcher pull-right'>
+<ul class='nav navbar-nav'>
+<li class='dropdown dropup'>
+<a aria-expanded='false' aria-haspopup='true' class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+<i class='fa fa-globe'></i>
+<span class='active'>
+English
+</span>
+<span>
+Dutch
+</span>
+<span>
+German
+</span>
+<span>
+French
+</span>
+<div class='caret'></div>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a class="active" href="/en">English</a>
+</li>
+<li>
+<a href="/nl">Dutch</a>
+</li>
+<li>
+<a href="/de">German</a>
+</li>
+<li>
+<a href="/fr">French</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+
+<script src="https://d10zminp1cyta8.cloudfront.net/assets/product-a119893ca6122310a2566e0d2662aefaa7ab8187cf7660d8bd401fa4fd7bf295.js"></script>
+<script id='desktop_offer_previewer_template' type='text/rt-template'>
+<div class='min-width'>
+<div class='offer-header'>
+<div class='job-title'>Your example job</div>
+<ul class='nav nav-tabs' role='tablist'>
+<li class='active'>
+<a class='tab' data-toggle='tab' href='#pipeline'>
+Pipeline
+</a>
+</li>
+<li>
+<a class='tab' data-toggle='tab' href='#filters'>
+<div class='pulse-dot' data-placement='top' data-toggle='tooltip' title='Click here'></div>
+Filters
+</a>
+</li>
+<li>
+<a class='tab' data-toggle='tab' href='#notes'>
+Notes
+</a>
+</li>
+<li>
+<a class='tab' data-toggle='tab' href='#files'>
+Files
+</a>
+</li>
+<li>
+<a class='tab' data-toggle='tab' href='#activities'>
+Activities
+</a>
+</li>
+<li>
+<a class='tab' data-toggle='tab' href='#reports'>
+Reports
+</a>
+</li>
+<li>
+<a class='tab' data-toggle='tab' href='#promote'>
+Promote
+</a>
+</li>
+</ul>
+</div>
+<div class='tab-content'>
+<div class='tab-pane in active' id='pipeline'>
+<div class='tab-pane-content'>
+<video autobuffer='' class='hidden-sm hidden-xs' data-delayed-loop-timeout='500' id='video' muted poster='' width='980'>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/pipeline_header/pipeline@2x-e2d1ee52077779ee38f70945229420b81367ac22b96b51a902d6c7629ec5e2a5.mp4' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/pipeline_header/pipeline-1f8d9f51326a8e83562c89ec95a13705703079769e7a4a7887296f880015cae4.mp4'>, type: "video/mp4"}</source>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/pipeline_header/pipeline@2x-36bc16dfa2eda88b50d00b35b9fe30cb5d55f8aaac865c9086dd20a9a08c6ac7.webm' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/pipeline_header/pipeline-88e70b3382a01e9f0972e7bd81512e65bba1ddd9298f02375dc8167396acb51e.webm'>, type: "video/webm"}</source>
+</video>
+<div class='hidden-lg hidden-md'>
+<img data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/pipeline_header/pipeline@2x-b91cfe8636b3aaa2f56d2315333656d9f190b4403e58902ca1371aa98ebf4baf.jpg' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/pipeline_header/pipeline-dff237ed16e20e24271b7863421fbb3216267d458be0a3454a1092b36f599301.jpg' height='502px'>
+</div>
+</div>
+</div>
+<div class='tab-pane in' id='filters'>
+<div class='tab-pane-content'>
+<video autobuffer='' class='hidden-sm hidden-xs' data-delayed-loop-timeout='500' poster='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/filters-2c7f562d5527af3d0a015635ab3492567d8c88a01495aa111c22ae799c730278.jpg' width='980'>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/filters@2x-f0ef067f813688e94ae537b7ba30f8599e9144f11aec699751e08736480cd01c.mp4' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/filters-8e8f31652f41d9105a8d787af06562daf9681fa140b15f39a947d32c8f766221.mp4'>, type: "video/mp4"}</source>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/filters@2x-74826be7bda584527f3a2cea364d4008e4d2f132a758905a01dcba109aa0f1b6.webm' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/filters-bfaa2c15af42d9c3574b972540d5d05e0ced6f82f690b81aeec3f18aa22b678a.webm'>, type: "video/webm"}</source>
+</video>
+</div>
+</div>
+<div class='tab-pane in' id='notes'>
+<div class='tab-pane-content'>
+<video autobuffer='' class='hidden-sm hidden-xs' data-delayed-loop-timeout='500' poster='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/notes-a8d5372dcebf39c36750253e8ab42eb4ba120fbfd1e080515b8cd61eea96440f.jpg' width='980'>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/notes@2x-6a083e4868430fcb9820816d9bbc470ab7782598baf126c71fa01954961c669b.mp4' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/notes-afd6cb51750d02e93cdacf75b8a2a87f64a8b7c8c6ba88cb994a802b3e01d220.mp4'>, type: "video/mp4"}</source>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/notes@2x-6a083e4868430fcb9820816d9bbc470ab7782598baf126c71fa01954961c669b.mp4' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/v3/header/notes-3f7f3f5177f16cf7804f07ec1681fbb829244ae51d5f68fb22f4dd8704b9465c.webm'>, type: "video/webm"}</source>
+</video>
+</div>
+</div>
+<div class='tab-pane in' id='files'>
+<div class='tab-pane-content'>
+<img src="https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/header_files-52946ab3d29277933ad0720f5ccce44f0d7b9cd2d3b320e5ae81affc6defdf5e.png" alt="Header files 52946ab3d29277933ad0720f5ccce44f0d7b9cd2d3b320e5ae81affc6defdf5e" />
+</div>
+</div>
+<div class='tab-pane in' id='activities'>
+<div class='tab-pane-content'>
+<img src="https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/header_activities-db616b156b93c25a3c3345d41fdd2ebef42dd7bc775436166123372327a7447e.png" alt="Header activities db616b156b93c25a3c3345d41fdd2ebef42dd7bc775436166123372327a7447e" />
+</div>
+</div>
+<div class='tab-pane in' id='reports'>
+<div class='tab-pane-content'>
+<video autobuffer='' class='hidden-sm hidden-xs' data-delayed-loop-timeout='500' poster='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/header_reports-73f1306e489c08e626c57d6b9b8734af24d96330cae83ee2c195a8f8e262f243.jpg' width='980'>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/header_reports@2x-67e668783bd62ca5c027d27431bf47bbb8dd9fe19ed89eeec12fd92965d91c8a.mp4' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/header_reports-6cb5a01140457bc666695de490cefc2ab2c7492cbbbf8d893d3b86e6de6547c4.mp4'>, type: "video/mp4"}</source>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/header_reports@2x-67e668783bd62ca5c027d27431bf47bbb8dd9fe19ed89eeec12fd92965d91c8a.mp4' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/header_reports-e727e62872b9846ff88e892f7f282a2f410fe7dd7ab00fb939671707905f20cc.webm'>, type: "video/webm"}</source>
+</video>
+</div>
+</div>
+<div class='tab-pane in' id='promote'>
+<div class='tab-pane-content'>
+<video autobuffer='' class='hidden-sm hidden-xs' data-delayed-loop-timeout='500' poster='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/header_promote-6f9afa680f96489352e6b75420c07baf72b7c4b44d2282ceede81c1a93fad459.jpg' width='980'>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/header_promote@2x-d7200cddc0bf5b14f43317d8ced66f8ff36091d801e54d655aa3ad337dbb2988.mp4' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/header_promote-9b88dc6d0e00c5d411e8f87d446615ae189c7cf1e9e99d4f4efc0c5af385d54e.mp4'>, type: "video/mp4"}</source>
+<source data-src2x='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/header_promote@2x-48388621d43a6e698c8911a8b83b185f9c4dd8d9f32d41ac5b5e55236febaefb.webm' data-src='https://d10zminp1cyta8.cloudfront.net/assets/product/visuals/homepage/header_promote-983959426ee3e82f0c03c79d4770b9bd078353ab76117f5bb48c281252d27116.webm'>, type: "video/webm"}</source>
+</video>
+</div>
+</div>
+</div>
+</div>
+
+</script>
+</body>
+</html>

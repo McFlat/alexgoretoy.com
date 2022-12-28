@@ -8,6 +8,7 @@ import {
 import Subnetcert from "../assets/images/certifications/cybrary-subnetting.png";
 import PCIcert from "../assets/images/certifications/cybrary-payment-card-industry.png";
 import InfoSeccert from "../assets/images/certifications/cybrary-infosec-intro.png";
+import WebPenTestingcert from "../assets/images/certifications/cybrary-web-pen-testing.png";
 import HTMLcert from "../assets/images/certifications/cert-1014-860659.jpg";
 import CSScert from "../assets/images/certifications/cert-1023-860659.jpg";
 import JScert from "../assets/images/certifications/cert-1024-860659.jpg";
@@ -44,13 +45,24 @@ const Education = () => (
             </ol>
             <div className="row certifications">
               <div className="three columns">
-                <img src={Subnetcert} />
+                <OutboundLink href={Subnetcert}>
+                  <img src={Subnetcert} alt="Subnetting" />
+                </OutboundLink>
               </div>
               <div className="three columns">
-                <img src={PCIcert} />
+                <OutboundLink href={PCIcert}>
+                  <img src={PCIcert} alt="Payment Card Industry Data Security Standard PCI/DSS" />
+                </OutboundLink>
               </div>
               <div className="three columns">
-                <img src={InfoSeccert} />
+                <OutboundLink href={InfoSeccert}>
+                  <img src={InfoSeccert} alt="InfoSec Intro" />
+                </OutboundLink>
+              </div>
+              <div className="three columns">
+                <OutboundLink href={WebPenTestingcert}>
+                  <img src={WebPenTestingcert} alt="Web Penetration Testing" />
+                </OutboundLink>
               </div>
             </div>
           </div>

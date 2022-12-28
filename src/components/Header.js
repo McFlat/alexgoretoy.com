@@ -2,9 +2,8 @@ import React from "react";
 
 import Navigation from "./Navigation";
 import Banner from "./Banner";
-import ScrollDown from "./ScrollDown";
 
-const imagesCount = 10;
+const imagesCount = 9;
 const imageNumber = randomInt(1, imagesCount);
 let bgImageClass = 'bg-' + imageNumber;
 
@@ -15,6 +14,7 @@ function randomInt (low, high) {
   do {
     number = Math.floor(Math.random() * (high - low + 1) + low);
   } while(number < low && number > high);
+  console.log(number)
   return number;
 }
 
@@ -22,7 +22,6 @@ const Header = () => (
   <header id="home" className={bgImageClass}>
     <Navigation />
     <Banner />
-    <ScrollDown />
   </header>
 );
 

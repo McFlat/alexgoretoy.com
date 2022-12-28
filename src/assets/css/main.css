@@ -284,7 +284,7 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #11ABB0;
+   color: grey;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
@@ -345,7 +345,7 @@ li p { }
    color: #313131;
 }
 .stats-tabs li a:hover {
-   color:#11ABB0;
+   color: grey;
 }
 .stats-tabs li a b {
 	display: block;
@@ -357,7 +357,7 @@ li p { }
 
 /* definition list */
 dl { margin: 12px 0; }
-dt { margin: 0; color:#11ABB0; }
+dt { margin: 0; color:red; }
 dd { margin: 0 0 0 20px; }
 
 /* Lining Definition Style Markup */
@@ -435,7 +435,7 @@ dd { margin: 0 0 0 20px; }
 }
 .pagination .current,
 .pagination .current:hover {
-   background-color: #11ABB0;
+   background-color: red;
    color: #fff;
 }
 .pagination .inactive,
@@ -463,7 +463,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #11ABB0;
+   background: grey;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
@@ -543,9 +543,9 @@ select {
 	max-width: 100%;
    font-size: 15px;
    line-height: 24px;
-	color: #647373;
-	background: #D3D9D9;
-
+	color: blue;
+	background: white;
+    border: 1px solid grey;
 }
 
 /* select { padding: 0;
@@ -556,8 +556,8 @@ input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-   color: #B3B7BC;
-	background-color: #3d4145;
+    color: white;
+    background: grey;
 }
 
 textarea { min-height: 220px; }
@@ -847,11 +847,10 @@ header {
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
-  overflow: hidden;
 }
 
 .bg-1 {
-   background: url(https://source.unsplash.com/daily?waters) no-repeat top center;
+   background: url(https://source.unsplash.com/daily?nature,water) no-repeat top center;
 }
 .bg-2 {
    background: url(https://source.unsplash.com/weekly?ocean) no-repeat top center;
@@ -860,32 +859,24 @@ header {
    background: url(https://source.unsplash.com/daily?beaches) no-repeat top center;
 }
 .bg-4 {
-   background: url(https://source.unsplash.com/weekly?pattern) no-repeat top center;
-}
-.bg-5 {
-   background: url(https://source.unsplash.com/daily?building) no-repeat top center;
-}
-.bg-6 {
    background: url(https://source.unsplash.com/weekly?forest) no-repeat top center;
 }
-.bg-7 {
+.bg-5 {
    background: url(https://source.unsplash.com/daily?earth) no-repeat top center;
 }
-.bg-8 {
+.bg-6 {
    background: url(https://source.unsplash.com/weekly?sky) no-repeat top center;
 }
-.bg-9 {
+.bg-7 {
    background: url(https://source.unsplash.com/daily?stars) no-repeat top center;
 }
-.bg-10 {
+.bg-8 {
    background: url(https://source.unsplash.com/weekly?sunset) no-repeat top center;
 }
 .bg-9 {
    background: url(https://source.unsplash.com/daily?mountain) no-repeat top center;
 }
-.bg-10 {
-   background: url(https://source.unsplash.com/weekly?architecture) no-repeat top center;
-}
+
 /* vertically center banner section */
 header:before {
   content: "";
@@ -909,7 +900,7 @@ header .banner-text h1 {
   font: 90px/1.1em "opensans-bold", sans-serif;
   color: #fff;
   letter-spacing: -2px;
-  margin: 0 auto 18px auto;
+  margin: 5rem auto 1.5rem auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
 }
 header .banner-text h3 {
@@ -946,15 +937,13 @@ header .social li a {
   color: #fff;
 }
 header .social li a:hover {
-  color: #11abb0;
+  color: blue;
 }
 
 /* scrolldown link */
 header .scrolldown a {
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  margin-left: -29px;
+  position: relative;
+  margin: 2rem auto;
   color: #fff;
   display: block;
   height: 42px;
@@ -970,9 +959,13 @@ header .scrolldown a {
   transition: all 0.3s ease-in-out;
 }
 header .scrolldown a:hover {
-  color: #11abb0;
+  color: green;
 }
 
+.pauseBtn, .playBtn {
+  color: red;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+}
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul,
@@ -1038,15 +1031,17 @@ ul#nav li a {
   transition: color 0.2s ease-in-out;
 }
 
-ul#nav li a:active {
+ul#nav li a:active, ul#nav li a:hover {
   background-color: transparent !important;
+  color: red;
 }
 ul#nav li.current a {
-  color: #f06000;
+  color: red;
 }
 
 #videos {
-   margin-top: 1rem;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
 }
 
 /* ------------------------------------------------------------------ */
@@ -1066,7 +1061,7 @@ ul#nav li.current a {
 }
 #about a:hover,
 #about a:focus {
-  color: #11abb0;
+  color: red;
 }
 
 #about h2 {
@@ -1112,40 +1107,41 @@ ul#nav li.current a {
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#experience, #skills, #education, #stuff {
   background: #fff;
   padding-top: 90px;
 /*  padding-bottom: 72px;*/
   overflow: hidden;
 }
 
-#resume a,
-#resume a:visited {
-  color: #11abb0;
+#experience a, #skills a, #education a, #stuff a,
+#experience a:visited, #skills a:visited, #education a:visited, #stuff a:visited {
+  color: green;
 }
-#resume a:hover,
-#resume a:focus {
-  color: #313131;
+#experience a:hover, #skills a:hover, #education a:hover, #stuff a:hover,
+#experience a:focus, #skills a:focus, #education a:focus, #stuff a:focus {
+  color: blue;
 }
 
-#resume h1 {
+#experience h1, #skills h1, #education h1, #stuff h1 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
+  line-height: 2em;
 }
-#resume h1 span {
-  border-bottom: 3px solid #11abb0;
+#experience h1 span, #skills h1 span, #education h1 span, #stuff h1 span {
+  border-bottom: 3px solid grey;
   padding-bottom: 6px;
 }
-#resume h3 {
+#experience h3, #skills h3, #education h3, #stuff h3 {
   font: 25px/30px "opensans-bold", sans-serif;
 }
 
-#resume .header-col {
+#experience .header-col, #skills .header-col, #education .header-col, #stuff .header-col {
   padding-top: 9px;
   /*z-index: 9999;*/
 }
-#resume .main-col {
+#experience .main-col, #skills .main-col, #education .main-col, #stuff .main-col {
   padding-right: 10%;
 }
 
@@ -1155,17 +1151,17 @@ ul#nav li.current a {
   padding-bottom: 24px;
 /*  border-bottom: 1px solid #e8e8e8;*/
 }
-#resume .info {
+#experience .info, #skills .info, #education .info, #stuff .info {
 
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
 }
-#resume .info span {
+#experience .info span, #skills .info span, #education .info span, #stuff .info span {
   margin-right: 5px;
   margin-left: 5px;
 }
-#resume .date {
+#experience .date, #skills .date, #education .date, #stuff .date {
 
   margin-top: 6px;
 }
@@ -2352,48 +2348,6 @@ ul#nav li.current a {
   }
 }
 
-#stuff {
-  background: #fff;
-  /*padding-top: 90px;*/
-  padding-bottom: 72px;
-  overflow: hidden;
-}
-
-#stuff a,
-#stuff a:visited {
-  color: #11abb0;
-}
-#stuff a:hover,
-#stuff a:focus {
-  color: #313131;
-}
-
-#stuff h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  line-height: 4.5rem;
-}
-#stuff h1 span {
-  border-bottom: 3px solid #11abb0;
-  padding-bottom: 6px;
-}
-#stuff h3 {
-  font: 25px/30px "opensans-bold", sans-serif;
-}
-#stuff h4 {
-   font-family: 'Rubik Mono One', sans-serif;
-}
-
-#stuff .header-col {
-  padding-top: 9px;
-  /*z-index: 9999;*/
-}
-#stuff .main-col {
-  padding-right: 10%;
-}
-
-
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
@@ -2817,159 +2771,6 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------ */
-/* h. Contact Section
-/* ------------------------------------------------------------------ */
-
-#contact {
-  background: #191919;
-  padding-top: 96px;
-  padding-bottom: 102px;
-  color: #636363;
-}
-#contact .section-head {
-  margin-bottom: 42px;
-}
-
-#contact a,
-#contact a:visited {
-  color: #11abb0;
-}
-#contact a:hover,
-#contact a:focus {
-  color: #fff;
-}
-
-#contact h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #ebeeee;
-  margin-bottom: 6px;
-}
-#contact h1 span {
-  display: none;
-}
-#contact h1:before {
-  font-family: "FontAwesome";
-  content: "\f0e0";
-  padding-right: 10px;
-  font-size: 72px;
-  line-height: 72px;
-  text-align: left;
-  float: left;
-  color: #ebeeee;
-}
-
-#contact h4 {
-  font: 16px/24px "opensans-bold", sans-serif;
-  color: #ebeeee;
-  margin-bottom: 6px;
-}
-#contact p.lead {
-  font: 18px/36px "opensans-light", sans-serif;
-  padding-right: 3%;
-}
-#contact .header-col {
-  padding-top: 6px;
-}
-
-/* contact form */
-#contact form {
-  margin-bottom: 30px;
-}
-#contact label {
-  font: 15px/24px "opensans-bold", sans-serif;
-  margin: 12px 0;
-  color: #ebeeee;
-  display: inline-block;
-  float: left;
-  width: 26%;
-}
-#contact input,
-#contact textarea,
-#contact select {
-  padding: 18px 20px;
-  color: #eee;
-  background: #373233;
-  margin-bottom: 42px;
-  border: 0;
-  outline: none;
-  font-size: 15px;
-  line-height: 24px;
-  width: 65%;
-}
-#contact input:focus,
-#contact textarea:focus,
-#contact select:focus {
-  color: #fff;
-  background-color: #11abb0;
-}
-#contact button.submit {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #fff;
-  background: #0d0d0d;
-  border: none;
-  cursor: pointer;
-  height: auto;
-  display: inline-block;
-  border-radius: 3px;
-  margin-left: 26%;
-}
-#contact button.submit:hover {
-  color: #0d0d0d;
-  background: #fff;
-}
-#contact span.required {
-  color: #11abb0;
-  font-size: 13px;
-}
-#message-warning,
-#message-success {
-  display: none;
-  background: #0f0f0f;
-  padding: 24px 24px;
-  margin-bottom: 36px;
-  width: 65%;
-  margin-left: 26%;
-}
-#message-warning {
-  color: #d72828;
-}
-#message-success {
-  color: #11abb0;
-}
-
-#message-warning i,
-#message-success i {
-  margin-right: 10px;
-}
-#image-loader {
-  display: none;
-  position: relative;
-  left: 18px;
-  top: 17px;
-}
-
-/* Twitter Feed */
-#twitter {
-  margin-top: 12px;
-  padding: 0;
-}
-#twitter li {
-  margin: 6px 0px 12px 0;
-  line-height: 30px;
-}
-#twitter li span {
-  display: block;
-}
-#twitter li b a {
-  font: 13px/36px "opensans-regular", Sans-serif;
-  color: #474747 !important;
-  border: none;
-}
-
-/* ------------------------------------------------------------------ */
 /* i. Footer
 /* ------------------------------------------------------------------ */
 
@@ -3083,7 +2884,7 @@ footer .social li:first-child {
  header .banner-text h1 {
     font: 80px/1.1em 'opensans-bold', sans-serif;
     letter-spacing: -1px;
-    margin: 0 auto 12px auto;
+    margin: 5rem auto 1rem auto;
  }
 
 }
@@ -3179,7 +2980,7 @@ footer .social li:first-child {
    width: 48px;
   height: 48px;
   text-align: left;
-  background-color: #CC5200;
+  background-color: red;
   position: relative;
     border: none;
     float: right;
@@ -3422,7 +3223,7 @@ footer .social li:first-child {
  header .banner { padding-top: 24px; }
  header .banner-text h1 {
     font: 40px/1.1em 'opensans-bold', sans-serif;
-    margin: 0 auto 24px auto;
+    margin: 5rem auto 2rem auto;
  }
  header .banner-text h3 {
     font: 14px/1.9em 'librebaskerville-regular', sans-serif;

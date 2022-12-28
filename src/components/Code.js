@@ -19,9 +19,9 @@ export default () => (
       <div className="nine columns main-col">
         <div className="row item">
 	        <div className="twelve columns">
-	          <h3><OutboundLink href="https://gist.github.com/FlatEarthTruther">Github Gists <FaArrowCircleLeft /></OutboundLink></h3>
+	          <h3><OutboundLink href="https://github.com/McFlat">Github <FaArrowCircleLeft /></OutboundLink></h3>
 	        	<p className="info">
-              One of my github accounts, the other(better) one is flagged for "spam".
+              One of my github accounts, two of my other accounts are flagged by the new GitHub owners(MicroSoft), because github is no good anymore. I prefer GitLab actually.
             </p>
 	        </div>
 	      </div>
